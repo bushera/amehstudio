@@ -63,3 +63,23 @@ div {position:fixed; bottom:100%;}
 #pichold3>#buy{position:absolute; bottom:6%; left:90%; width:16px; height:16px; border-radius:50%; background:green; box-shadow:1px 1px 1px .3px black;}
 #pichold3>#spread{position:absolute; bottom:8%; left:15%; width:71%; height:7%; border-radius:2%; background:rgba(0,0,0,.03); box-shadow:1px 1px 1px .3px white; overflow:scroll;}
 #pichold3>#spread>h5{position:absolute; top:-28%; left:3%; font-size:10px; font-weight:normal; letter-spacing:2px;}
+
+@media only screen and(min-width:768px){
+      #pichold>img{width:550px; height:650px;}
+      #pichold>h3{bottom:80.5%; left:65%;}
+      #pichold>h4{bottom:70%; left:65%;}
+      
+      #pichold1>img{width:550px; height:650px;}
+      #pichold1>h3{bottom:80.5%; left:65%;}
+      #pichold1>h4{bottom:70%; left:65%;}
+      
+      #pichold2>img{width:550px; height:650px;}
+      #pichold2>h3{bottom:80.5%; left:65%;}
+      #pichold2>h4{bottom:70%; left:65%;}
+      
+      #pichold3>img{width:550px; height:650px;}
+      #pichold3>h3{bottom:80.5%; left:65%;}
+      #pichold3>h4{bottom:70%; left:65%;}
+      
+
+}

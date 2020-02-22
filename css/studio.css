@@ -64,7 +64,7 @@ div {position:fixed; bottom:100%;}
 #pichold3>#spread{position:absolute; bottom:8%; left:15%; width:71%; height:7%; border-radius:2%; background:rgba(0,0,0,.03); box-shadow:1px 1px 1px .3px white; overflow:scroll;}
 #pichold3>#spread>h5{position:absolute; top:-28%; left:3%; font-size:10px; font-weight:normal; letter-spacing:2px;}
 
-@media only screen and(min-width:768px){
+@media only screen and(min-width:1200px){
       #pichold>img{width:550px; height:650px;}
       #pichold>h3{bottom:80.5%; left:65%;}
       #pichold>h4{bottom:70%; left:65%;}

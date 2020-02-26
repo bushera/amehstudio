@@ -25,7 +25,7 @@ var prev, next, h1, menu, topfloor,imgbody, tpflr, Ypos;
     
    }
    
-       function scrlz(){
+      /* function scrlz(){
            Ypos = window.pageYoffset;
            tpflr = document.getElementById("tpflr");
            h1 = document.getElementById("h1");
@@ -42,9 +42,39 @@ var prev, next, h1, menu, topfloor,imgbody, tpflr, Ypos;
            
            
        }
+	   window.addEventListener("scroll", scrlz)*/
        
   function change(){
   document.location.href = "http://amehegwuh.netlify.com"
   }
        
-   window.addEventListener("scroll", scrlz);
+      $(function(){
+        $("#pichold").click(function(){
+               $("#buybox").slideToggle(500);
+               $("#buybox1").css("display", "none");
+               $("#buybox2").css("display", "none");
+               $("#buybox3").css("display", "none");
+        });
+        
+        $("#pichold1").click(function(){
+            $("#buybox1").slideToggle(500);
+            $("#buybox").css("display", "none");
+            $("#buybox2").css("display", "none");
+            $("#buybox3").css("display", "none");
+        });
+        
+        $("#pichold2").click(function(){
+            $("#buybox2").slideToggle(500);
+            $("#buybox").css("display", "none");
+            $("#buybox1").css("display", "none");
+            $("#buybox3").css("display", "none");
+        });
+        
+        $("#pichold3").click(function(){
+            $("#buybox3").slideToggle(500);
+            $("#buybox").css("display", "none");
+            $("#buybox1").css("display", "none");
+            $("#buybox2").css("display", "none");
+        });
+  
+  })

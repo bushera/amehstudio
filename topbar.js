@@ -1,54 +1,10 @@
-var prev, next, h1, menu, topfloor,imgbody, tpflr, Ypos;
-    
-     
-      function downmenu(menu){
-      menu = document.getElementById(menu);
-      h1 = document.getElementById("h1");
-      topfloor = document.getElementById("topfloor");
-      imgbody = document.getElementById("imgbody");
-      downbar = document.getElementById("downbar")
-      
-    if (menu.style.display == "none")
-    {
-        menu.style.display = "block";
-        topfloor.style.width = "38px";
-        imgbody.style.display = "none";
-        downbar.style.display = "block";
-        }
-        
-        
-        else{ menu.style.display = "none";
-              topfloor.style.width ="33px";
-              imgbody.style.display = "block";
-              downbar.style.display = "none";  
-        }
-    
-   }
-   
-      /* function scrlz(){
-           Ypos = window.pageYoffset;
-           tpflr = document.getElementById("tpflr");
-           h1 = document.getElementById("h1");
-           
-           if(Ypos>10){
-               h1.style.display= "none";
-               tpflr.style.height = "block";
-           }
-           else{
-                 h1.style.display = "block";
-                 tpflr.style.height = "none";
-           }
-         
-           
-           
-       }
-	   window.addEventListener("scroll", scrlz)*/
-       
-  function change(){
+function change(){
   document.location.href = "http://amehegwuh.netlify.com"
   }
        
-      $(function(){
+
+   
+  $(function(){
         $("#pichold").click(function(){
                $("#buybox").slideToggle(500);
                $("#buybox1").css("display", "none");
@@ -76,5 +32,32 @@ var prev, next, h1, menu, topfloor,imgbody, tpflr, Ypos;
             $("#buybox1").css("display", "none");
             $("#buybox2").css("display", "none");
         });
-  
+		
+		$("#topfloor").click(function(){
+			   $("#topbar").animate({left: "0%"}, 1000);
+			   $("#topfloor").css("display", "none");
+			   $("#topimg").css("width", "99%");
+			   $(".jumbotron").css("width", "95%");
+			   $("h1").animate({left: "208px"} ,1100);
+			   $("#topbar").css("box-shadow", "1px 1px 5px 1px rgba(0,0,0,.2)");
+			   $("#topfloor1").css("display", "block");
+			   $("#topfloor").off(click);
+			   
+		});
+		
+		
+		$("#topfloor1").click(function(){
+			   $("#topbar").animate({left: "-13.6%"}, 1000);
+			   $("#topfloor1").css("display", "none");
+			   $("#topimg").css("width", "90%");
+			   $(".jumbotron").css("width", "85%");
+			   $("h1").animate({left: "108px"}, 1100);
+			   $("#topbar").css("box-shadow", "1px 1px 5px 1px rgba(0,0,0,0)");
+			   $("#topfloor").css("display", "block");
+			   $("#topfloor").off(click);
+		});	
+		
+		$("#dropd").click(function(){
+		    $(".jumbotron").fadeToggle(1500);
+		});		
   })

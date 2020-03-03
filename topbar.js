@@ -1,4 +1,4 @@
-function change(){
+ function change(){
   document.location.href = "http://amehegwuh.netlify.com"
   }
        
@@ -47,17 +47,44 @@ function change(){
 		
 		
 		$("#topfloor1").click(function(){
-			   $("#topbar").animate({left: "-13.6%"}, 1000);
+			   $("#topbar").animate({left: "-15%"}, 1000);
 			   $("#topfloor1").css("display", "none");
 			   $("#topimg").css("width", "90%");
 			   $(".jumbotron").css("width", "85%");
 			   $("h1").animate({left: "108px"}, 1100);
 			   $("#topbar").css("box-shadow", "1px 1px 5px 1px rgba(0,0,0,0)");
+			   $("#topfloor").slideToggle(1300);
 			   $("#topfloor").css("display", "block");
 			   $("#topfloor").off(click);
 		});	
 		
+		$("#topfloor2").click(function(){
+		$("#topbar").animate({left: "0%"}, 1000);
+		$("#topfloor2").css("display", "none");
+		$("#topimg").css("width", "98%");
+		$(".jumbotron").css("width", "95%");
+		$("h1").animate({left: "208px"} ,1100);
+		$("#topbar").css("box-shadow", "1px 1px 5px 1px rgba(0,0,0,.2)");
+		$("#topfloor3").css("display", "block");
+		$("#topfloor2").off(click);
+		
+		});
+		
+		
+		$("#topfloor3").click(function(){
+		$("#topbar").animate({left: "-60%"}, 1000);
+		$("#topfloor3").css("display", "none");
+		$("#topimg").css("width", "85%");
+		$(".jumbotron").css("width", "85%");
+		$("h1").animate({left: "108px"}, 1100);
+		$("#topbar").css("box-shadow", "1px 1px 5px 1px rgba(0,0,0,0)");
+		$("#topfloor2").slideToggle(1300);
+		$("#topfloor2").css("display", "block");
+		$("#topfloor2").off(click);
+		});	
+		
 		$("#dropd").click(function(){
 		    $(".jumbotron").fadeToggle(1500);
-		});		
+		});	
+			
   })

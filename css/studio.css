@@ -54,7 +54,7 @@ h1{ position:absolute; text-align:center; top:15.5%; left:108px; font-family:san
     h1{font-size:23px; letter-spacing:2px; top:17%;}
 }
 
-#topfloor{width:17px; height:42px; right:.3%; top:45%; background:rgba(0,0,0,.08); border-radius:2px 2px 15px 2px; position:fixed; animation:colorchange 8s infinite alternate; animation-delay:2s; display:block;}
+#topfloor{width:17px; height:42px; left:.3%; top:45%; background:rgba(0,0,0,.08); border-radius:2px 2px 15px 2px; position:fixed; animation:colorchange 8s infinite alternate; animation-delay:2s; display:block;}
 #topfloor>#h31{position:absolute; font-size:25px; width:1px; color:white; top:-38%; left:50%;}
 #topfloor>#h32{position:absolute; font-size:18px; width:1px; color:white; top:-33%; left:30%;}
 #topfloor>#h33{position:absolute; font-size:12px; width:1px; color:white; top:-30%; left:15%;}

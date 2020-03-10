@@ -24,7 +24,7 @@ body{opacity:1; transistion: opacity.5s linear 0s;}
 
 #studio>#dropd{font-size:15px; position:absolute;}
 
-.jumbotron{position:absolute; top:68%; width:95%; left:2%; background:rgba(0,0,0,.03); height:28%; display:none; }
+.jumbotron{position:absolute; top:70%; width:95%; left:2%; background:rgba(0,0,0,.03); height:28%; display:none; }
 .jumbotron>h4{font-size: 13px; top:0%; left:2%; position:absolute; font-weight:bold;}
 .jumbotron>a{font-size:12px; left:3%; position:absolute; font-weight:bold; letter-spacing:3px; text-decoration:none; color:white; border-radius:8px;}
 
@@ -57,7 +57,7 @@ h1{ position:absolute; text-align:center; top:15.5%; left:108px; font-family:san
 #topfloor{width:17px; height:42px; left:.3%; top:45%; background:rgba(0,0,0,.08); border-radius:2px 2px 15px 2px; position:fixed; animation:colorchange 8s infinite alternate; animation-delay:2s; display:block;}
 #topfloor>#h31{position:absolute; font-size:25px; width:1px; color:white; top:-38%; left:50%;}
 #topfloor>#h32{position:absolute; font-size:18px; width:1px; color:white; top:-33%; left:30%;}
-#topfloor>#h33{position:absolute; font-size:12px; width:1px; color:white; top:-30%; left:15%;}
+#topfloor>#h33{position:absolute; font-size:12px; width:1px; color:white; top:-31%; left:15%;}
 #topfloor2{display:none;}
 
 @media (max-width:768px){
@@ -88,7 +88,7 @@ h1{ position:absolute; text-align:center; top:15.5%; left:108px; font-family:san
 #topfloor1{width:17px; height:42px; right:.8%; top:45%; background:green; border-radius:2px 2px 15px 2px; position:absolute; display:none;}
 #topfloor1>#h31{position:absolute; font-size:25px; width:1px; color:white; top:-38%; left:5%;}
 #topfloor1>#h32{position:absolute; font-size:18px; width:1px; color:white; top:-33%; left:40%;}
-#topfloor1>#h33{position:absolute; font-size:12px; width:1px; color:white; top:-30%; left:70%;}
+#topfloor1>#h33{position:absolute; font-size:12px; width:1px; color:white; top:-31%; left:70%;}
 
 @media (max-width:768px){
 #topfloor3{width:17px; height:42px; right:.8%; top:45%; background:green; border-radius:2px 2px 15px 2px; position:absolute; display:none;}

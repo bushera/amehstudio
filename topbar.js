@@ -36,6 +36,7 @@
 		$("#topfloor").click(function(){
 			   $("#topbar").animate({left: "0%"}, 1000);
 			   $("#topfloor").css("display", "none");
+			   $("#topfloor3").css("display", "none");
 			   $("#topimg").css("width", "99%");
 			   $(".jumbotron").css("width", "95%");
 			   $("h1").animate({left: "208px"} ,1100);
@@ -61,6 +62,7 @@
 		$("#topfloor2").click(function(){
 		$("#topbar").animate({left: "0%"}, 1000);
 		$("#topfloor2").css("display", "none");
+		$("#topfloor1").css("display", "none");
 		$("#topimg").css("width", "98%");
 		$(".jumbotron").css("width", "95%");
 		$("h1").animate({left: "208px"} ,1100);

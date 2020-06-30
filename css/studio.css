@@ -9,7 +9,7 @@ body{opacity:1; transistion: opacity.5s linear 0s;}
 #topbar>#topimg{width:85%;}
 }
 
-@media screen and(max-width:768px){
+@media screen and (max-width:768px){
 #topbar{left:-60%; width:55%;}
 #topbar>#topimg{width:85%;}
 }
@@ -36,7 +36,7 @@ body{opacity:1; transistion: opacity.5s linear 0s;}
     #studio{top:370px; left:25px;}
 }
 
-@media screen and(max-width:768px){
+@media screen and (max-width:768px){
     #home{top:210px; left:25px;}
     #bio{top:250px; left:25px;}
     #media{top:290px; left:25px;}
@@ -50,7 +50,7 @@ h1{ position:absolute; text-align:center; top:15.5%; left:108px; font-family:san
     h1{font-size:23px; letter-spacing:2px; top:17%;}
 }
 
-@media screen and(max-width:768px){
+@media screen and (max-width:768px){
     h1{font-size:23px; letter-spacing:2px; top:17%;}
 }
 
@@ -68,7 +68,7 @@ h1{ position:absolute; text-align:center; top:15.5%; left:108px; font-family:san
 #topfloor{display:none;}
 }
 
-@media screen and(max-width:768px){
+@media screen and (max-width:768px){
 #topfloor2{width:17px; height:42px; left:.3%; top:45%; background:rgba(0,0,0,.08); border-radius:2px 2px 15px 2px; position:fixed; animation:colorchange 8s infinite alternate; animation-delay:2s; display:block;}
 #topfloor2>#h31{position:absolute; font-size:25px; width:1px; color:white; top:-55%; left:50%;}
 #topfloor2>#h32{position:absolute; font-size:18px; width:1px; color:white; top:-35%; left:30%;}
@@ -97,7 +97,7 @@ h1{ position:absolute; text-align:center; top:15.5%; left:108px; font-family:san
 #topfloor3>#h33{position:absolute; font-size:12px; width:1px; color:white; top:-34%; left:70%;}
 }
 
-@media screen and(max-width:768px){
+@media screen and (max-width:768px){
 #topfloor3{width:17px; height:42px; right:.8%; top:45%; background:green; border-radius:2px 2px 15px 2px; position:absolute; display:none;}
 #topfloor3>#h31{position:absolute; font-size:25px; width:1px; color:white; top:-55%; left:5%;}
 #topfloor3>#h32{position:absolute; font-size:18px; width:1px; color:white; top:-35%; left:40%;}
@@ -113,7 +113,7 @@ h1{ position:absolute; text-align:center; top:15.5%; left:108px; font-family:san
     #std>h2{left:2.5%; font-weight:normal; font-size:60%; letter-spacing:10px;}
 }
 
-@media screen and(max-width:768px){
+@media screen and (max-width:768px){
     #std>h2{left:2.5%; font-weight:normal; font-size:60%; letter-spacing:10px;}
 }
 
@@ -132,7 +132,7 @@ h1{ position:absolute; text-align:center; top:15.5%; left:108px; font-family:san
       #pichold>h4{bottom:15%; left:15%;}
       #pichold>#buybox{left:80%; width:60px; letter-spacing:0px;}
 }
-@media screen and(max-width:768px){
+@media screen and (max-width:768px){
       #pichold>img{width:90%; height:60%;}
       #pichold>h3{bottom:25.5%; left:15%;}
       #pichold>h4{bottom:15%; left:15%;}
@@ -157,7 +157,7 @@ h1{ position:absolute; text-align:center; top:15.5%; left:108px; font-family:san
       #pichold1>#buybox1{left:80%; width:60px; letter-spacing:0px;}
       
 }
-@media screen and(max-width:768px){
+@media screen and (max-width:768px){
       #pichold1>img{width:90%; height:60%;}
       #pichold1>h3{bottom:25.5%; left:15%;}
       #pichold1>h4{bottom:15%; left:15%;}
@@ -182,7 +182,7 @@ h1{ position:absolute; text-align:center; top:15.5%; left:108px; font-family:san
       #pichold2>#buybox2{left:80%; width:60px; letter-spacing:0px;}
       
 }
-@media screen and(max-width:768px){
+@media screen and (max-width:768px){
       #pichold2>img{width:90%; height:60%;}
       #pichold2>h3{bottom:25.5%; left:15%;}
       #pichold2>h4{bottom:15%; left:15%;}

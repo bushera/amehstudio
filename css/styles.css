@@ -9,7 +9,7 @@ window{opacity:1; background:black; }
 	to{transform:rotate(360deg)}
 }
 
-#pichold{position:absolute; top:5%; left:2%; height:95%; width:96%; background:rgba(0,0,0,.01); box-shadow:0px .8px 18px 2px rgba(0,0,0,.1); border-radius:0px 30px 0px 0px; display:block;}
+#pichold{position:relative; top:10px; left:2%; height:570px; width:465px;  background:rgba(0,0,0,.01); box-shadow:0px .8px 18px 2px rgba(0,0,0,.1); border-radius:0px 30px 0px 0px; display:block;}
 #pichold>img{position:absolute; top:5%; left:5%; height:85%; width:45%;}
 #pichold>h3{position:absolute; bottom:88.5%; left:50%; font-size:15px; font-weight:bold; letter-spacing:5px; color:teal;}
 #pichold>h4{position:absolute; bottom:85%; left:50%; font-size:10px; font-weight:normal; letter-spacing:2px; top-margin:50px;}

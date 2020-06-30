@@ -3,184 +3,275 @@
 
 <head>
 
-<title> amehegwuh-studio </title>
+<title> ameh-studio </title>
 <meta charset="utf-8">
     <!--responsive-->
-    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="HandheldFriendly" content="true">
    
     <!--CSS-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <!--jQuery-->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/css/uikit.min.css">
+	<!--<link rel="stylesheet" href="/css/materialize.min.css">-->
+	
+	<!--jQuery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     
     <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
-    
-    <!--JavaScript-->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-
-
-<link rel="stylesheet" href="/css/studio.css">
-<script type="text/javascript" src ="/topbar.js">
-
-</script>
+	
+	
+	<link rel="stylesheet" href="/css/styles.css">
+	<script type="text/javascript" src="/topbar.js">
+        
+    </script>
 
 </head>
 
 
-
-
 <body>
+	 <div id="preload-page">
+		<div id="preload-img" ><img id="preload-img" src="/images/preload-img.jpg"><div id="preloader"></div></div>
+	 </div>
+    
 
- 
-
-    <h1 id="h1" onclick="change()">Ameh Egwuh</h1>
-    
-    
-    <div id="std">
-    <h2>studio</h2>
-    <div id="stdi">
-         <video controls>
-              <source src="/videos/amestd.mp4" type="video/mp4">
-             
-              </source>
-         </video>
-      </div>
-    </div>
-    
     
   
      <div id="pichold">
-     <img src="/images/amestd0.jpg"></img>
-     <div id="buybox"><h2>available</h2></div>
-     <div id="buy"></div>
+     <img data-src="/images/amestd0.jpg" uk-img></img>
      <h3>AGED</h3>
-     <h4>2018<br>
-         Oil and acrylic on canvas<br>
-         30 by 39 inches
-     </h4>
-     <!--<div id="spread">
-        <h5>
-             So the best conversations i have had
-             in my life are those with the <b style="color:grey"> aged </b>.
-             Every single page is full of <b style="color:grey">wisdom</b>
-             yh deep and pure wisdom and it never ends.
-             
-        </h5>
-     </div>-->
-     </div>
+     <h4>2018</h4>
+	 <a id="download" href="/images/original/amestd0.jpg" download="AGED...amehegwuh"><span class="uk-icon-link" uk-icon="icon:download;"></span></a>
+     <a id="cart" href="#carttoggle"  uk-toggle><span class="uk-icon-link" uk-icon="icon:cart;"></span></a>
+	 </div>
+	 
+	  <div id="carttoggle" class="uk-modal-container" uk-modal>
+		<div id="modal-dialog" class="uk-modal-dialog uk-position-small uk-position-center" uk-grid>
+			<form id="modal-form" method="POST">
+			<img id="modal-img" data-src="/images/amestd0.jpg" width="40%" height="30%"  uk-img>
+			<h2>PURCHASE REQUEST</h2>
+			<h3>AGED</h3>
+			<h4>2018</h4>
+			<input id="type-input" type="text" placeholder="type" required list="type">
+				<datalist id="type">
+					<option value="canvas"> canvas </option>
+				</datalist>
+			<input id="email-input" type="email" placeholder="email" required autofocus>
+			<input id="location-input" type="text" placeholder="state-country" required>
+			<button class="uk-button-default" type="submit">send</button>
+			</form>
+		<button class="uk-modal-close-outside" type="button" uk-close></button>
+	 </div>	
+	 </div>
+   
    
      <div id="pichold1">
-     <img src="/images/amestd1.jpg"></img>
-     <div id="buybox1"><h2>available</h2></div>
-     <div id="buy"></div>
+     <img data-src="/images/amestd1.jpg" uk-img></img>
      <h3>MY AFRICAN WOMAN</h3>
-     <h4>2017<br>
-     Oil and acrylic on canvas<br>
-     30 by 39 inches
-     </h4>
-     <!--<div id="spread">
-         <h5>
-             <b style="color:grey"> i call her my African woman</b> <br></br>
-             Not because she is from africa<br>
-             Not because she is black<br>
-             Not because of her culture<br>
-             Not because of her tradition<br>
-             Not because of her religion<br>
-             Not because of her beauty<br>
-             Not because of her atire<br>
-             Not because of her tribal marks <br>
-             Not because of her tatoo<br>
-             Not because of her name<br></br>
-             But because of those African i can see in her, 
-             yes those African qualities i can see.
-     
-         </h5>
-     </div>-->
+     <h4>2017</h4>
+	 <a id="download" href="/images/original/amestd1.jpg" download="my african woman...amehegwuh"><span class="uk-icon-link" uk-icon="icon:download;"></span></a>
+     <a id="cart1" href="#carttoggle1" uk-toggle><span class="uk-icon-link" uk-icon="icon:cart;"></span></a>
      </div>
+	 
+	 <div id="carttoggle1" class="uk-modal-container" uk-modal>
+		<div id="modal-dialog" class="uk-modal-dialog uk-position-small uk-position-center" uk-grid>
+			<form id="modal-form" method="POST">
+			<img id="modal-img" data-src="/images/amestd1.jpg" width="40%" height="30%"  uk-img>
+			<h2>PURCHASE REQUEST</h2>
+			<h3>MY AFRICAN WOMAN</h3>
+			<h4>2017</h4>
+			<input id="type-input" type="text" placeholder="type" required list="type">
+				<datalist id="type">
+					<option value="canvas"> canvas </option>
+				</datalist>
+			<input id="email-input" type="email" placeholder="email" required autofocus>
+			<input id="location-input" type="text" placeholder="state-country" required>
+			<button class="uk-button-default" type="submit">send</button>
+			</form>
+		<button class="uk-modal-close-outside" type="button" uk-close></button>
+	 </div>	
+	 </div>
      
      <div id="pichold2">
-     <img src="/images/amestd2.jpg"></img>
-     <div id="buybox2"><h2>bought</h2></div>
-     <div id="buy"></div>
+     <img data-src="/images/amestd2.jpg" uk-img></img>
      <h3>SELF TORTURE</h3>
-     <h4>2018<br>
-     Acrylic on canvas<br>
-     30 by 39 inches
-     </h4>
-     <!--<div id="spread">
-           <h5>
-              So i find myself in a world where ignorance
-              as turned people into slaves, making them forget
-              who they are and glorify what is not.
-     
-          </h5>
-     </div>-->
+     <h4>2018</h4>
+	 <a id="download" href="/images/original/amestd2.jpg" download="self torture...amehegwuh"><span class="uk-icon-link" uk-icon="icon:download;"></span></a>
+     <a id="cart2" href="#carttoggle2" uk-toggle><span class="uk-icon-link" uk-icon="icon:cart;"></span></a>
      </div>
+	 
+	 <div id="carttoggle2" class="uk-modal-container" uk-modal>
+		<div id="modal-dialog" class="uk-modal-dialog uk-position-small uk-position-center" uk-grid>
+			<form id="modal-form" method="POST">
+			<img id="modal-img" data-src="/images/amestd2.jpg" width="40%" height="30%"  uk-img>
+			<h2>PURCHASE REQUEST</h2>
+			<h3>SELF TORTURE</h3>
+			<h4>2017</h4>
+			<input id="type-input" type="text" placeholder="type" required list="type">
+				<datalist id="type">
+					<option value="canvas"> canvas </option>
+				</datalist>
+			<input id="email-input" type="email" placeholder="email" required autofocus>
+			<input id="location-input" type="text" placeholder="state-country" required>
+			<button class="uk-button-default" type="submit">send</button>
+			</form>
+		<button class="uk-modal-close-outside" type="button" uk-close></button>
+	 </div>	
+	 </div>
+	 
+	 
      
      <div id="pichold3">
-     <img src="/images/amestd3.jpg"></img>
-     <div id="buybox3"><h2>available</h2></div>
-     <div id="buy"></div>
+     <img data-src="/images/amestd3.jpg" uk-img></img>
      <h3>SOME WORDS ARE NOISE</h3>
-     <h4>2019<br>
-     Acrylic on canvas<br>
-     30 by 32 inches
-     </h4>
-     <!--<div id="spread">
-           <h5>
-               Sometimes i get tired of hearing stories of how Beautiful
-               i look or how Beautiful my future would be, When all i see
-               is Ugliness.
-          </h5>
-     </div>-->
+     <h4>2019</h4>
+	 <a id="download" href="/images/original/amestd3.jpg" download="SOME WORDS AE NOISE...amehegwuh"><span class="uk-icon-link" uk-icon="icon:download;"></span></a>
+     <a id="cart3" href="#carttoggle3" uk-toggle><span class="uk-icon-link" uk-icon="icon:cart;"></span></a>
      </div>
+	 
+	 <div id="carttoggle3" class="uk-modal-container" uk-modal>
+		<div id="modal-dialog" class="uk-modal-dialog uk-position-small uk-position-center" uk-grid>
+			<form id="modal-form" method="POST">
+			<img id="modal-img" data-src="/images/amestd3.jpg" width="40%" height="30%"  uk-img>
+			<h2>PURCHASE REQUEST</h2>
+			<h3>SOME WORDS ARE NOISE</h3>
+			<h4>2019</h4>
+			<input id="type-input" type="text" placeholder="type" required list="type">
+				<datalist id="type">
+					<option value="canvas"> canvas </option>
+				</datalist>
+			<input id="email-input" type="email" placeholder="email" required autofocus>
+			<input id="location-input" type="text" placeholder="state-country" required>
+			<button class="uk-button-default" type="submit">send</button>
+			</form>
+		<button class="uk-modal-close-outside" type="button" uk-close></button>
+	 </div>	
+	 </div>
+	 
+	 
+	 
+	 <div id="pichold4">
+     <img data-src="/images/amestd4.jpg" uk-img></img>
+     <h3>SOME WORDS ARE NOISE</h3>
+     <h4>2019</h4>
+	 <a id="download" href="/images/original/amestd4.jpg" download="SOME WORDS AE NOISE...amehegwuh"><span class="uk-icon-link" uk-icon="icon:download;"></span></a>
+     <a id="cart4" href="#carttoggle4" uk-toggle><span class="uk-icon-link" uk-icon="icon:cart;"></span></a>
+     </div>
+	 
+	 <div id="carttoggle4" class="uk-modal-container" uk-modal>
+		<div id="modal-dialog" class="uk-modal-dialog uk-position-small uk-position-center" uk-grid>
+			<form id="modal-form" method="POST">
+			<img id="modal-img" data-src="/images/amestd4.jpg" width="40%" height="30%"  uk-img>
+			<h2>PURCHASE REQUEST</h2>
+			<h3>SOME WORDS ARE NOISE</h3>
+			<h4>2019</h4>
+			<input id="type-input" type="text" placeholder="type" list="type" required >
+				<datalist id="type">
+					<option value="canvas"> canvas </option>
+				</datalist>
+			<input id="email-input" type="email" placeholder="email" required autofocus>
+			<input id="location-input" type="text" placeholder="state-country" required>
+			<button class="uk-button-default" type="submit">send</button>
+			</form>
+		<button class="uk-modal-close-outside" type="button" uk-close></button>
+	 </div>	
+	 </div> 
+	 
+	 
 
 
- <div id="topbar">
-      <img id="topimg" src="/images/amehface2.jpg"></img>
-      
-      
-    <nav id="toplink">
-	  <div id="topfloor"> <h3 id="h31">|<h3> <h3 id="h32">|<h3> <h3 id="h33">|<h3> </div>
-	  <div id="topfloor1"> <h3 id="h31">|<h3> <h3 id="h32">|<h3> <h3 id="h33">|<h3> </div>
-	  <div id="topfloor2"> <h3 id="h31">|<h3> <h3 id="h32">|<h3> <h3 id="h33">|<h3> </div>
-	  <div id="topfloor3"> <h3 id="h31">|<h3> <h3 id="h32">|<h3> <h3 id="h33">|<h3> </div>
-	  
-	   
-      <a id="home" href="http://amehegwuh.netlify.com" >home</a><br>
-      <a id="bio" href="#" >bio</a><br>
-      <a id="media" href="#" >media</a><br>
-      <a id="contact" href="#" >contact</a><br>
-	  <a id="studio" href="#" >studio <span id="dropd">&#9662<span> </a><br>
-	  
-	  <div class = "container">
-    <div class = "jumbotron">
-	    <h4 class = "text-success">series</h4>
-	    <a href = "#" class = "bg-primary">ONE</a>
-	</div>
- </div>
- 
-     </nav>
- </div>
  
  
- <audio src="C:\Users\USER-PC\Desktop\bensound-thejazzpiano.mp3" autoplay loop ></audio>
  
  <div id="lastbar">
 <h6 id="h61">2020 copyright <b>.c</b> Ameh Egwuh</h6>
 <h6 id="h62"> site by <a href="http://bushera.netlify.com">bushera</a></h6>
 
-<div id="social"><a href="mailto:ameamehame@gmail.com" ><img src="/images/gmail2.png"></a></div>
-<div id="social1"><a href="https://github.com/bushera/ameh" ><img src="/images/github.png"></a></div>
-<div id="social2"><a href="https://www.facebook.com/egwuh.amehkelvinace" ><img src="/images/facebk1.jpg"></a></div>
-<div id="social3"><a href="https://www.instagram.com/ameh_egwuh/" ><img src="/images/insta1.jpg"></a></div>
+<div id="social"><a href="mailto:ameamehame@gmail.com" ><img src="C:\Users\USER-PC\Desktop\teststudio\gmail2.png"></a></div>
+<div id="social1"><a href="https://github.com/bushera/ameh" ><img src="C:\Users\USER-PC\Desktop\teststudio\github.png"></a></div>
+<div id="social2"><a href="https://www.facebook.com/egwuh.amehkelvinace" ><img src="C:\Users\USER-PC\Desktop\teststudio\facebk1.jpg"></a></div>
+<div id="social3"><a href="https://www.instagram.com/ameh_egwuh/" ><img src="C:\Users\USER-PC\Desktop\teststudio\insta1.jpg"></a></div>
 
 </div>
 
- 
+<a id="offslide-btn" href="#offslide" tabindex="0" style="position:fixed; bottom:2%; left:-2%;" class="uk-button uk-button-small uk-margin-small-right pulse"uk-toggle><span class="uk-icon-link" style="color:teal" uk-icon="icon:menu; ratio:.9;"></span></a>
+	
+		<div id="offslide"class="uk-overflow-auto">
+			<h1>Ameh Egwuh</h1>
+			
+			<div id="hr1">
+				
+					<form id="year-form">
+					<input class="uk-input"  id="year-input" type="text" placeholder="ALL" list="year">
+					<button id="year-submit" type="submit"><span class="uk-icon-link" uk-icon="icon:sign-in;"></span></button>
+					<datalist  id="year">
+						<option value="2018"> 2018 </option>
+						<option value="2019"> 2019 </option>
+						<option value="2020"> 2020 </option>
+					</datalist>
+					</form>
+				
+			</div>
+			
+			
+				<div id="toplink">
+					<a id="home" href="amehegwuh.netlify.com" >home</a><br>
+					<a id="exhibition" href="amestudio.netlify.com" >exhibition</a><br>
+					<a id="works" href="#" >works<span class="uk-icon-link" uk-icon="icon:chevron-double-right;" </span></a><br>
+					<a id="contact" href="#" >contact</a><br>
+					<a id="bio" href="#" >bio</a><br>
+				</div>
+			<button  class="uk-offslide-close uk-close-small" type="button" style="text-decoration:none;" uk-close></button>
+			 
+	
+		</div>
+		
+		
+	<!--UKIT WORKS-->
+	
+		
+		<div uk-lightbox="video-autoplay:true;">
+			<div id="video-cover">
+			<a id="video-box" href="/video/amestd.mp4"  data-type="video" data-caption="rele-YC2020"><span class="uk-icon-link" uk-icon="icon:play-circle; ratio:.75;" style="color:white;"></span><a>
+			</div>
+		</div>
+		
+		<div id="mail-cover">
+        <a id="mail" href="mailto:ameamehame@gmail.com" ><span class="uk-icon-link" uk-icon="icon:mail; ratio:.75;" style="color:white;"></span><a>	
+		</div>
+		<div id="facebook-cover">
+		<a id="facebook-social" href="https://www.facebook.com/egwuh.amehkelvinace" ><span class="uk-icon-link" uk-icon="icon:facebook; ratio:.75;" style="color:white;"></span><a>
+		</div>
+		<div id="instagram-cover">
+		<a id="instagram-social" href="https://www.instagram.com/ameh_egwuh/" ><span class="uk-icon-link" uk-icon="icon:instagram; ratio:.75;" style="color:white;"></span><a>	
+		</div>
+		
+		
+		<div id="series-bar">
+			<a href="#" class="uk-label">series</a>
+			
+			<div id="img-hold"> <img src="/images/amestd4.jpg" uk-img></div>
+			
+			<div  id="first-born" uk-lightbox="animation:scale; autoplay:true; duration:50; pause-on-hover:true;">
+			<a href="/images/original/amestd5.jpg" data-caption="rele-YC2020">african</a>
+			<a href="/images/original/amestd6.jpg" data-caption="rele-YC2020">
+			<a href="/images/original/amestd7.jpg" data-caption="rele-YC2020">
+			<a href="/images/original/amestd8.jpg" data-caption="rele-YC2020">
+			<a href="/images/original/amestd9.jpg" data-caption="rele-YC2020">
+			</div>
+		
+		</div>
+		
+		
+
+    <!--jAVASCRIPT-->
+	<script src="/js/bootstrap.min.js"></script>
+	<script src="/js/uikit.min.js"></script>
+	<script src="/js/uikit-icons.min.js"></script>
+	<script src="/js/materialize.min.js"></script>
+
+</div>
+	
 </body>
 
 
@@ -190,7 +281,3 @@
 
 
 </html>
-    
-    
-    
-    

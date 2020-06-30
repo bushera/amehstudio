@@ -1,4 +1,9 @@
- function change(){
+ window.addEventListener("load", function(){
+	var preload-page = document.getElementById("preload-page");
+	document.body.removeChild(preload-page); 
+});
+ 
+ /*function change(){
   document.location.href = "http://amehegwuh.netlify.com"
   }
        
@@ -89,4 +94,4 @@
 		    $(".jumbotron").fadeToggle(1500);
 		});	
 			
-  })
+  })*/

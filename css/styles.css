@@ -152,33 +152,21 @@ window{opacity:1; background:black; }
 	 #pichold4>#download{position:absolute; bottom:5%; right:10%;}
 	 #pichold4>#cart4{position:absolute; bottom:5%; right:5%;}
 	 
-	 #lastbar{top:566%; height:15%; }
-     #lastbar>#h61{top:0%; left:2%; font-size:8px; letter-spacing:2px; font-weight:lighter; color:white;}
+	 #lastbar{top:536%; height:25%; }
+     #lastbar>#h61{top:15%; left:28%; font-size:10px; letter-spacing:2px; font-weight:bold; color:white;}
      #lastbar>#h62{top:20%; left:2%; font-size:8px; letter-spacing:2px; font-weight:lighter; color:white;}
      
-     #lastbar>#social{top:67%; height:22px; width:22px; left:2%; border-radius:20%; }
-     #lastbar>#social>a>img{top:5%; left:3%; height:20px; width:20px;}
-     
-     #lastbar>#social1{top:67%; height:22px; width:22px; left:13%; border-radius:20%; }
-     #lastbar>#social1>a>img{top:5%; left:3%; height:20px; width:20px;}
-     
-     #lastbar>#social2{top:67%; height:22px; width:22px; left:24%; border-radius:20%; }
-     #lastbar>#social2>a>img{top:8%; left:9%; height:18px; width:18px;}
-     
-     #lastbar>#social3{top:67%; height:22px; width:22px; left:35%; border-radius:20%; }
-     #lastbar>#social3>a>img{top:5%; left:3%; height:20px; width:20px;}
-     
 	 #modal-form{position:absolute; height:100%; width:100%;}
-	 #modal-form>h2{font-size:12px; font-weight:bold; position:absolute; left:10%; top:-5%; letter-spacing:5px;}
-	 #modal-form>h3{font-size:12px;  position:absolute; right:10%; top:15%;} 
-	 #modal-form>h4{font-size:10px;  position:absolute; right:10.5%; top:24%;}
-	 #modal-form>button{position:absolute; top:83%; right:8%; border-radius:8px;}
-	 #modal-img{position:absolute; bottom:11%; filter:grayscale(10); opacity:.8;}
-	 #modal-dialog{height:50%; width:90%;}
+	 #modal-form>h2{font-size:16px; font-weight:bold; position:absolute; top:7%; letter-spacing:5px; text-align:center;}
+	 #modal-form>h3{font-size:12px;  position:absolute; right:10%; top:20%;} 
+	 #modal-form>h4{font-size:10px;  position:absolute; right:10.5%; top:26%;}
+	 #modal-form>button{position:absolute; top:90%; right:8%; border-radius:8px; background:teal; color:white;}
+	 #modal-img{position:absolute; bottom:25%; filter:grayscale(10); opacity:.8;}
+	 #modal-dialog{height:90%; width:90%; border-radius:5% 0% 5% 5%; }
 	 #type-input{position:absolute; width:42%; left:50%; top:37%; color:teal }
 	 #email-input{position:absolute; width:42%; left:50%; top:52%; color:teal }
      #location-input{position:absolute; width:42%; left:50%; top:65%; color:teal; text-transform:capitalize; }
-	 
+	  
 	 #video-cover{position:absolute; top:529%; right:5px; background:teal; opacity:.4; width:21px; height:21px; border-radius:35%;}
 	 #video-box{position:absolute; top:-3%; left:15%;}
 	 #mail-cover{position:absolute; top:529%; right:35px; background:darkred; opacity:.4; width:21px; height:21px; border-radius:35%;}
@@ -187,14 +175,11 @@ window{opacity:1; background:black; }
 	 #facebook-social{position:absolute; top:-3%; right:10%;}
 	 #instagram-cover{position:absolute; top:529%; right:95px; background:purple; opacity:.4; width:21px; height:21px; border-radius:35%;}
 	 #instagram-social{position:absolute; top:-3%; right:10%;}
+	 #top-scroll{position:absolute; top:529%; left:15px; background:black; opacity:.4; width:50px; height:21px; border-radius:5%;}
+	 #top{position:absolute; top:-3%; right:10%;}
 	 
 
-	 #series-bar{position:absolute; top:536%; background:white; opacity:1; width:100%; height:30%; box-shadow:0px .8px 18px 2px rgba(0,0,0,.08);}
-	 .uk-label{position:absolute; top:5%; left:3%;}
-	 #first-born{position:absolute; top:15%; right:10%;}
-	 #img-hold{position:absolute; top:30%; left:5%; height:60%; width:30%; background:black; opacity:.2}
-	 #img-hold>img{position:absolue; height:100%; width:100%; left:50%; top:2.5%; }
-	 
+	
 	 #offslide{background:white; position:fixed; width:200px; height:100%; opacity:1; display:none;}
 	 #offslide>h1{position:absolute; font-size:18px; letter-spacing:2px; top:4%; left:15%; font-family:gothic; font-weight:normal;}
 	 #offslide>button{position:absolute; top:96%; right:3%;}

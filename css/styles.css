@@ -163,7 +163,7 @@ window{opacity:1; background:black; }
 	 #modal-form>button{position:absolute; top:90%; right:8%; border-radius:8px; background:teal; color:white;}
 	 #modal-img{position:absolute; bottom:25%; filter:grayscale(10); opacity:.8;}
 	 #modal-dialog{height:90%; width:90%; border-radius:5% 0% 5% 5%; }
-	 #type-input{position:absolute; width:42%; left:50%; top:37%; color:teal }
+	 #type-input{position:absolute; width:42%; left:50%; top:40%; color:teal }
 	 #email-input{position:absolute; width:42%; left:50%; top:52%; color:teal }
      #location-input{position:absolute; width:42%; left:50%; top:65%; color:teal; text-transform:capitalize; }
 	  

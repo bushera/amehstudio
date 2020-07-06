@@ -1,6 +1,9 @@
- window.addEventListener("load", function(){
-	var preload-page = document.getElementById("preload-page");
-	document.body.removeChild(preload-page); 
+<script type="text/javascript">	
+
+var preload-page = document.getElementById("preload-page");	
+
+window.addEventListener("load", function(){
+	preload-page.style.display = "none"; 
 });
  
  /*function change(){
@@ -95,3 +98,5 @@
 		});	
 			
   })*/
+  
+ </script>

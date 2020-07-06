@@ -1,4 +1,3 @@
-<script type="text/javascript">	
 
 var preload-page = document.getElementById("preload-page");	
 
@@ -99,4 +98,3 @@ window.addEventListener("load", function(){
 			
   })*/
   
- </script>

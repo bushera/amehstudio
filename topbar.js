@@ -1,6 +1,6 @@
  $(function(){
 		$("main").show();
-		$("#preload-page").delay(2000).fadeOut(1000);
+		$("#preload-page").delay(4000).fadeOut(1000);
 	 
 		$("#offslide-btn").click(function(){
 			   $("#offslide").animate({left: "0%"}, 800);

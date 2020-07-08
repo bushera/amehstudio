@@ -9,7 +9,7 @@
 		
 		
 		$("#offslide-close").click(function(){
-			   $("#offslide").animate({left: "-50%"}, 800);
+			   $("#offslide").animate({left: "-100%"}, 800);
 			   $("#offslide-btn").css("display", "block");
 			   $("#offslide-h1").animate({left: "-70%"}, 900);
 			   $("#offslide-close").off(click);

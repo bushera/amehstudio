@@ -1,4 +1,7 @@
  $(function(){
+		$("main").show();
+		$("#preload-page").delay(3500).fadeOut(1000);
+	 
 		$("#offslide-btn").click(function(){
 			   $("#offslide").animate({left: "0%"}, 800);
 			   $("#offslide-btn").css("display", "none");
@@ -14,11 +17,6 @@
 			   $("#offslide-h1").animate({left: "-70%"}, 900);
 			   $("#offslide-close").off(click);
 		});	
-		
-		$(window).on("load", function(){
-			$("main").show();
-			$("#preload-page").delay(3500).fadeOut(1000);
-		});
 		
   });
 

@@ -15,6 +15,10 @@
 			   $("#offslide-close").off(click);
 		});	
 		
-			
+		$(window).on("load", function(){
+			$("main").show();
+			$("#preload-page").delay(3500).fadeOut(1000);
+		});
+		
   });
 

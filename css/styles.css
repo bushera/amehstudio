@@ -44,7 +44,7 @@
 #pichold4>#download{position:absolute; bottom:10%; right:8%;}
 #pichold4>#cart4{position:absolute; bottom:10%; right:5%;}
 
-#lastbar{position:absolute; top:655%; background:teal; opacity:1; width:100%; height:15%; left:0%; box-shadow:inset 1px 2px 5px rgba(0,0,0,0); border-radius: 0px 0px 0px 0px;}
+#lastbar{position:absolute; top:655%; background:black; opacity:1; width:100%; height:15%; left:0%; box-shadow:inset 1px 2px 5px rgba(0,0,0,0); border-radius: 0px 0px 0px 0px;}
 #lastbar>#h61{position:absolute; top:15%; left:68%; color:grey;  font-size:.8em; font-weight:lighter; letter-spacing:6px; text-align:center;}
 #lastbar>#h61>b{background:grey; color:white; border-radius:50%;}
 #lastbar>#h62{position:absolute; top:35%; left:78%; color:grey; font-size:.8em; font-weight:lighter; letter-spacing:4px; text-align:center;}

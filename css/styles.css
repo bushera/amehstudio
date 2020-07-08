@@ -120,7 +120,7 @@
 	 from{transform:rotate(0deg)}
 	 to{transform:rotate(360deg)}
 		}
-	#progress1{position:absolute; top:75%; width:30%; left:35%; animation:change-progress linear 3s infinite 2s alternate;}
+	#progress1{position:absolute; top:75%; width:30%; left:35%; animation:change-progress linear 1s infinite 1s alternate;}
 	@keyframes change-progress{
 		25%{background:brown;}
 		50%{background:purple;}

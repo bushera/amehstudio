@@ -15,6 +15,9 @@
 	<link rel="stylesheet" href="/css/uikit.min.css">
 	<link rel="stylesheet" href="/css/materialize.min.css">
 	
+	<!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css">-->
+	
+	
 	<!--jQuery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     
@@ -42,12 +45,49 @@
     
 
 <main>
+	<div id="menu-bar" uk-sticky="animation:uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active:uk-navbar-sticky; cls-inactive:uk-navbar-transparent uk-light; top:150">
+		<nav class="uk-navbar-container">
+			<div class="uk-navbar-center uk-container uk-container-expand">
+				<div class="uk-navbar-right" uk-navbar="mode:click;">
+					
+					<ul class="uk-navbar-nav">
+					<li>
+					<a  href="#" >home</a>
+					</li>
+					<li>
+					<a  href="#" >bio</a>
+					</li>
+					<li>
+					<a  href="#" >works</a>
+					<div class="uk-navbar-dropdown">
+						<ul class="uk-nav uk-navbar-dropdown-nav">
+							<li><a id="year" href="#" >year</a></li><br>
+							<li><a id="series" href="amestudio.netlify.com" >series</a></li>
+						</ul>
+					</div>
+					</li>
+					<li>
+					<a  href="#" >exhibition</a>
+					</li>
+					<li>
+					<a href="#" >contact</a>
+					</li>
+					</ul>
+					
+				</div>
+			</div>
+		</nav>
+		
+	</div>
+
+
+
 	<div uk-scrollspy="cls:uk-animation-fade; target:>.holder; delay:400; repeat:true;">
      <div id="pichold"  class="holder">
      <img data-src="/images/amestd0.jpg" uk-img></img>
      <h3>AGED</h3>
      <h4>2018</h4>
-	 <a id="download" href="/images/original/amestd0.jpg" download="AGED...amehegwuh"><span class="uk-icon-link" uk-icon="icon:download;"></span></a>
+	 <a id="download" href="/original/amestd0.jpg" download="AGED...amehegwuh"><span class="uk-icon-link" uk-icon="icon:download;"></span></a>
      <a id="cart" href="#carttoggle"  uk-toggle><span class="uk-icon-link" uk-icon="icon:cart;"></span></a>
 	 </div>
 	 
@@ -75,7 +115,7 @@
      <img data-src="/images/amestd1.jpg" uk-img></img>
      <h3>MY AFRICAN WOMAN</h3>
      <h4>2017</h4>
-	 <a id="download" href="/images/original/amestd1.jpg" download="my african woman...amehegwuh"><span class="uk-icon-link" uk-icon="icon:download;"></span></a>
+	 <a id="download" href="/original/amestd1.jpg" download="my african woman...amehegwuh"><span class="uk-icon-link" uk-icon="icon:download;"></span></a>
      <a id="cart1" href="#carttoggle1" uk-toggle><span class="uk-icon-link" uk-icon="icon:cart;"></span></a>
      </div>
 	 
@@ -102,7 +142,7 @@
      <img data-src="/images/amestd2.jpg" uk-img></img>
      <h3>SELF TORTURE</h3>
      <h4>2018</h4>
-	 <a id="download" href="/images/original/amestd2.jpg" download="self torture...amehegwuh"><span class="uk-icon-link" uk-icon="icon:download;"></span></a>
+	 <a id="download" href="/original/amestd2.jpg" download="self torture...amehegwuh"><span class="uk-icon-link" uk-icon="icon:download;"></span></a>
      <a id="cart2" href="#carttoggle2" uk-toggle><span class="uk-icon-link" uk-icon="icon:cart;"></span></a>
      </div>
 	 
@@ -131,7 +171,7 @@
      <img data-src="/images/amestd3.jpg" uk-img></img>
      <h3>SOME WORDS ARE NOISE</h3>
      <h4>2019</h4>
-	 <a id="download" href="/images/original/amestd3.jpg" download="SOME WORDS AE NOISE...amehegwuh"><span class="uk-icon-link" uk-icon="icon:download;"></span></a>
+	 <a id="download" href="/original/amestd3.jpg" download="SOME WORDS AE NOISE...amehegwuh"><span class="uk-icon-link" uk-icon="icon:download;"></span></a>
      <a id="cart3" href="#carttoggle3" uk-toggle><span class="uk-icon-link" uk-icon="icon:cart;"></span></a>
      </div>
 	 
@@ -160,7 +200,7 @@
      <img data-src="/images/amestd4.jpg" uk-img></img>
      <h3>SOME WORDS ARE NOISE</h3>
      <h4>2019</h4>
-	 <a id="download" href="/images/original/amestd4.jpg" download="SOME WORDS AE NOISE...amehegwuh"><span class="uk-icon-link" uk-icon="icon:download;"></span></a>
+	 <a id="download" href="/original/amestd4.jpg" download="SOME WORDS AE NOISE...amehegwuh"><span class="uk-icon-link" uk-icon="icon:download;"></span></a>
      <a id="cart4" href="#carttoggle4" uk-toggle><span class="uk-icon-link" uk-icon="icon:cart;"></span></a>
      </div>
 	 
@@ -190,14 +230,8 @@
  
  
  
-<div id="lastbar">
-<h6 id="h61" class="uk-position-absolute uk-position-center"><b>.c</b> 2020 copyright</h6>
-<h6 id="h62" class="uk-position-absolute uk-position-center">Ameh Egwuh</h6>
-<h6 id="h63" class="uk-position-absolute uk-position-center">Get updated on all our recent news of latest<br></br>works release and exhibitions by subscribing to<br></br>our newsletter</h6>
-<form>
-<input id="lastbar-subscribe" class="uk-input uk-position-absolute uk-position-center" type="email" placeholder="Your email goes here" required>
-</form>
-</div>
+<h6 id="h61">&copy; 2018-2020</h6>
+<h6 id="h62">Ameh Egwuh</h6>
 
 <a id="offslide-btn" href="#"   style="position:fixed; bottom:.5%; left:-2%; display:block;" class="uk-button uk-button-small uk-margin-small-right pulse"><span class="uk-icon-link" style="color:teal" uk-icon="icon:menu; ratio:1.2;"></span></a>
 	
@@ -210,31 +244,31 @@
 			
 				<ul class="uk-slideshow-items">
 					<li>
-						<img onclick="alert('welcome in')" data-src="/Original/amestd4.jpg" style="width:100%; height:100%;" uk-img>
+						<img onclick="alert('welcome in')" data-src="/original/amestd4.jpg" style="width:100%; height:100%;" uk-img>
 						<div style="position:absolute; height:5%; bottom:0%; width:100%" class="uk-overlay uk-overlay-primary">
 							<p>dfehdfdfg </p>
 						</div>
 					</li>
 					<li>
-						<img data-src="/Original/amestd8.jpg" style="width:100%; height:100%;" uk-img>
+						<img data-src="/original/amestd8.jpg" style="width:100%; height:100%;" uk-img>
 						<div style="position:absolute; height:5%; bottom:0%; width:100%" class="uk-overlay uk-overlay-primary">
 							<p>dfehdfdfg </p>
 						</div>
 					</li>
 					<li >
-						<img data-src="/Original/amestd10.jpg" style="width:100%; height:100%;" uk-img>
+						<img data-src="/original/amestd10.jpg" style="width:100%; height:100%;" uk-img>
 						<div style="position:absolute; height:5%; bottom:0%; width:100%" class="uk-overlay uk-overlay-primary">
 							<p>nbvxvc </p>
 						</div>
 					</li>
 					<li >
-						<img data-src="/Original/amestd6.jpg" style="width:100%; height:100%;" uk-img>
+						<img data-src="/original/amestd6.jpg" style="width:100%; height:100%;" uk-img>
 						<div style="position:absolute; height:5%; bottom:0%; width:100%" class="uk-overlay uk-overlay-primary">
 							<p>hgfvgfhghg</p>
 						</div>
 					</li>
 					<li >
-						<img data-src="/Original/amestd3.jpg" style="width:100%; height:100%;" uk-img>
+						<img data-src="/original/amestd3.jpg" style="width:100%; height:100%;" uk-img>
 						<div style="position:absolute; height:0%; bottom:0%; width:100%" class="uk-overlay uk-overlay-primary">
 							<p>xvxzccxxv</p>
 						</div>
@@ -244,11 +278,11 @@
 			</div>
 			
 			
-			<div  class="switch">
-				<label>
-				<input  type="checkbox">
-				<span style="background:black;" class="lever"></span>
-				</label>
+			<div id="darkmode" class="container">
+				<div  class="custom-control custom-switch">
+				<input  type="checkbox" class="custom-control-input" id="darkswitch">
+				<label class="custom-control-label" for="darkswitch"></label>
+				</div>
 			</div>
 			
 			
@@ -256,7 +290,13 @@
 				<div id="toplink">
 					<a id="home" href="amehegwuh.netlify.com" >home</a><br>
 					<a id="exhibition" href="amestudio.netlify.com" >exhibition</a><br>
-					<a id="works" href="#">works</a><br>
+					<a id="works"  href="#">works</a>
+					<div id="down">
+						<a id="mob-year" href="#" >year</a>
+						<a id="mob-series" href="#" >series</a>
+					</div>
+					<span id="works-span" style="font-size:6px; color:teal;" class="glyphicon glyphicon-plus"></span>
+					<span id="works-span2" style="font-size:6px; color:red;" class="glyphicon glyphicon-plus"></span>
 					<a id="contact" href="#" >contact</a><br>
 					<a id="bio" href="#" >bio</a><br>
 				</div>

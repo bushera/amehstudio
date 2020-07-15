@@ -127,31 +127,31 @@
 		75%{background:pink;}
 		100%{background:indigo;}
 	}
-	 #pichold>img{width:90%; left:5%; height:70%; top:8%;}
+	 #pichold>img{width:84%; left:8%; height:70%; top:8%;}
      #pichold>h3{bottom:10.5%; left:15%; color:black; font-weight:normal;}
      #pichold>h4{bottom:8%; left:15%; color:teal; font-weight:lighter;}
 	 #pichold>#download{position:absolute; bottom:5%; right:10%;}
 	 #pichold>#cart{position:absolute; bottom:5%; right:5%;}
 	 
-	 #pichold1>img{width:90%; left:5%; height:70%; top:8%;}
+	 #pichold1>img{width:84%; left:8%; height:70%; top:8%;}
      #pichold1>h3{bottom:10.5%; left:15%; color:black; font-weight:normal;}
      #pichold1>h4{bottom:8%; left:15%; color:teal; font-weight:lighter;}
 	 #pichold1>#download{position:absolute; bottom:5%; right:10%;}
 	 #pichold1>#cart1{position:absolute; bottom:5%; right:5%;}
 
-	 #pichold2>img{width:90%; left:5%; height:70%; top:8%;}
+	 #pichold2>img{width:84%; left:8%; height:70%; top:8%;}
      #pichold2>h3{bottom:10.5%; left:15%; color:black; font-weight:normal;}
      #pichold2>h4{bottom:8%; left:15%; color:teal; font-weight:lighter;}
 	 #pichold2>#download{position:absolute; bottom:5%; right:10%;}
 	 #pichold2>#cart2{position:absolute; bottom:5%; right:5%;}
 	 
-     #pichold3>img{width:90%; left:5%; height:70%; top:8%;}
+     #pichold3>img{width:84%; left:8%; height:70%; top:8%;}
      #pichold3>h3{bottom:10.5%; left:15%; color:black; font-weight:normal;}
      #pichold3>h4{bottom:8%; left:15%; color:teal; font-weight:lighter;}
 	 #pichold3>#download{position:absolute; bottom:5%; right:10%;}
 	 #pichold3>#cart3{position:absolute; bottom:5%; right:5%;} 
 	 
-	 #pichold4>img{width:90%; left:5%; height:70%; top:8%;}
+	 #pichold4>img{width:84%; left:8%; height:70%; top:8%;}
      #pichold4>h3{bottom:10.5%; left:15%; color:black; font-weight:normal;}
      #pichold4>h4{bottom:8%; left:15%; color:teal; font-weight:lighter;}
 	 #pichold4>#download{position:absolute; bottom:5%; right:10%;}

@@ -1,12 +1,25 @@
 
 
-#preload-page{position:fixed; width:100%; height:100%; background:white; display:none; z-index:9999; overflow:hidden;}
-#preload-img{position:absolute; width:100%; height:100%;}
-#preloader{position:absolute; top:90%; right:5%; width:48px; height:48px; border-radius:50px; border-top:10px solid red; border-left:10px solid teal; border-right:10px solid black; border-bottom:10px solid grey; animation:rotator  1s infinite; }
-@keyframes rotator{
-	from{transform:rotate(0deg)}
-	to{transform:rotate(360deg)}
+#menu-bar>nav{background:teal; position:absolute; top:-100%;}
+#year{position:absolute; color:red; top:0%;  width:0%; background:transparent;}
+#series{position:absolute; color:red; bottom:0%; width:0%; background:transparent;}
+
+
+#preload-page{position:fixed; top:0%; left:0%; width:100%; height:100%; background:white; display:block; z-index:999; overflow:hidden; }
+#preload-img{position:absolute; width:100%; height:100%; display:none;}
+#preloader-cover{position:absolute; display:block;  width:60px; height:60px; background:transparent; opacity:1; border-radius:50%; animation:scally ease-out 1s infinite .2s alternate; }
+#preloader{position:absolute; display:block;  width:100%; height:100%; background:rgba(0,0,0,.1); border-radius:50%; animation:backchange ease-out 1s infinite .2s alternate-reverse; }
+
+@keyframes backchange{
+	25%{background:rgba(0,0,0,.08);}
+	50%{background:rgba(0,0,0,.06);}
+	75%{background:rgba(0,0,0,.04);}
+	100%{background:rgba(0,0,0,.02);}
 }
+@keyframes scally{
+		from{transform:scale(3.5,3.5);}
+		to{transform:scale(1,1);}
+	}
 
 
 #pichold{position:absolute; top:5%; left:2%; height:95%; width:96%; background:rgba(0,0,0,.01); box-shadow:0px .8px 18px 2px rgba(0,0,0,.1); border-radius:0px 30px 0px 0px; display:block;}
@@ -44,60 +57,47 @@
 #pichold4>#download{position:absolute; bottom:10%; right:8%;}
 #pichold4>#cart4{position:absolute; bottom:10%; right:5%;}
 
-#lastbar{position:absolute; top:655%; background:black; opacity:1; width:100%; height:15%; left:0%; box-shadow:inset 1px 2px 5px rgba(0,0,0,0); border-radius: 0px 0px 0px 0px;}
-#lastbar>#h61{position:absolute; top:15%; left:68%; color:grey;  font-size:.8em; font-weight:lighter; letter-spacing:6px; text-align:center;}
-#lastbar>#h61>b{background:grey; color:white; border-radius:50%;}
-#lastbar>#h62{position:absolute; top:35%; left:78%; color:grey; font-size:.8em; font-weight:lighter; letter-spacing:4px; text-align:center;}
-#lastbar>#h62>a{text-decoration:none; color:grey; font-family:cursive; font-weight:bold;}
-#lastbar>#social{position:absolute; background:white; top:22%; height:55px; width:55px; left:5%; border-radius:20%;}
-#lastbar>#social>a>img{position:absolute; top:2%; height:51px; width:51px; left:2%; filter:grayscale(100); border-radius:50%;}
-#lastbar>#social>a>img:hover{filter:grayscale(0);}
-
-#lastbar>#social1{position:absolute; background:white; top:22%; height:55px; width:55px; left:11%; border-radius:20%;}
-#lastbar>#social1>a>img{position:absolute; top:2%; height:51px; width:51px; left:2%; filter:grayscale(100); border-radius:50%;}
-#lastbar>#social1>a>img:hover{filter:grayscale(0);}
- 
-#lastbar>#social2{position:absolute; background:white; top:22%; height:55px; width:55px; left:17%; border-radius:20%;}
-#lastbar>#social2>a>img{position:absolute; top:7%; height:45px; width:45px; left:8%; filter:grayscale(100); border-radius:20%;}
-#lastbar>#social2>a>img:hover{filter:grayscale(0);}
- 
-#lastbar>#social3{position:absolute; background:white; top:22%; height:55px; width:55px; left:23%; border-radius:20%;}
-#lastbar>#social3>a>img{position:absolute; top:2%; height:51px; width:51px; left:2%; filter:grayscale(100); border-radius:50%;}
-#lastbar>#social3>a>img:hover{filter:grayscale(0);}
+#toplink{display:block;}
 
 @media only screen and (min-width:768px){
-	 h1{ position:absolute; text-align:center; top:15.5%; left:108px; font-family:san-serif; font-weight:lighter; font-size:26px; letter-spacing:5px; }
-
-
-	 #modal-form>h2{font-size:12px; font-weight:bold; position:absolute; left:10%; top:-5%; letter-spacing:15px;}
-	 #modal-form>h3{font-size:12px;  position:absolute; right:10%; top:15%;} 
-	 #modal-form>h4{font-size:10px;  position:absolute; right:10.5%; top:24%;}
-	 #modal-form>button{position:absolute; top:83%; right:8%; border-radius:8px;}
-	 #modal-img{position:absolute; bottom:11%; filter:grayscale(10); opacity:.8;}
-	 #modal-dialog{height:50%; width:90%;}
-	 #type-input{position:absolute; width:42%; left:50%; top:37%; color:teal }
+	  #modal-form{position:absolute; height:100%; width:100%;}
+	 #modal-form>h2{font-size:16px; font-weight:bold; position:absolute; top:7%; letter-spacing:5px; text-align:center;}
+	 #modal-form>h3{font-size:12px;  position:absolute; right:10%; top:20%;} 
+	 #modal-form>h4{font-size:10px;  position:absolute; right:10.5%; top:26%;}
+	 #modal-form>button{position:absolute; top:90%; right:8%; border-radius:8px; background:teal; color:white; height:25px; font-size:15px;}
+	 #modal-img{position:absolute; bottom:10%; width:30%; height:75%; filter:grayscale(10); opacity:.8;}
+	 #modal-dialog{height:90%; width:90%; border-radius:25px 0px 25px 25px; }
+	 #type-input{position:absolute; width:42%; left:50%; top:40%; color:teal }
 	 #email-input{position:absolute; width:42%; left:50%; top:52%; color:teal }
      #location-input{position:absolute; width:42%; left:50%; top:65%; color:teal; text-transform:capitalize; }
 	 
-	 #video-box{position:absolute; top:530%; right:5%;}
-	 #mail{position:absolute; top:530%; right:10%;}
-
-	 #series-bar{position:absolute; top:535%; background:white; opacity:1; width:100%; height:30%; box-shadow:0px .8px 18px 2px rgba(0,0,0,.08);}
-	 .uk-label{position:absolute; top:5%; left:3%;}
-	 #first-born{position:absolute; top:15%; right:10%;}
-	 #img-hold{position:absolute; top:30%; left:5%; height:60%; width:30%; background:black; opacity:.2}
-	 #img-hold>img{position:absolue; height:100%; width:100%; left:50%; top:2.5%; }
+	 #video-cover{position:absolute; top:535%; left:600px; background:teal; opacity:.4; width:21px; height:21px; border-radius:35%;}
+	 #video-box{position:absolute; top:-3%; left:15%;}
+	 #mail-cover{position:absolute; top:535%; left:630px; background:darkred; opacity:.4; width:21px; height:21px; border-radius:35%;}
+	 #mail{position:absolute; top:-3%; right:15%;}
+	 #facebook-cover{position:absolute; top:535%; left:660px; background:darkblue; opacity:.4; width:21px; height:21px; border-radius:35%;}
+	 #facebook-social{position:absolute; top:-3%; right:15%;}
+	 #instagram-cover{position:absolute; top:535%; left:690px; background:purple; opacity:.4; width:21px; height:21px; border-radius:35%;}
+	 #instagram-social{position:absolute; top:-3%; right:15%;}
+	 #top-scroll{position:absolute; top:535%; left:720px; background:black; opacity:.7; width:21px; height:21px; border-radius:35%;}
+	 #top{position:absolute; top:-3%; right:10%;}
 	 
-	 #offslide{background:white; position:fixed; width:40%; height:100%; opacity:1; display:display;}
-	 #offslide>#h1{position:absolute; font-size:20px; letter-spacing:2px; top:-4%; left:15%; display:block;}
+
+	
+	 #offslide-btn{display:none;}
+	 #offslide{background:black; position:fixed; width:100%; height:70px; opacity:1; display:none;}
+	 #offslide>h1{position:absolute; font-size:20px; letter-spacing:2px; top:-4%; left:15%; display:block;}
 	 #offslide>button{position:absolute; top:93%; right:6%;}
 	 #hr1{position:absolute; width:100%; height:6.5%; background:rgba(0,0,0,.035); top:12%; opacity:1; border-top:1px solid rgba(0,0,0,.05);  border-bottom:1px solid rgba(0,0,0,.05);}
 	 #year-input{position:absolute; width:70%; left:1%; height:60%; top:18.5%; text-align:center; font-weight:bold; font-size:12px; text-decoration:none;}
 	 
+	 #h61{top:550%; color:teal; position:absolute; font-size:14px; left:43%; text-align:center;}
+	 #h62{top:550%; color:black; position:absolute; font-size:14px; left:50%; text-align:center;}
+
+
 	 
-	 #toplink{display:none;}
-	 #home{color:black; text-decoration:none; font-weight:bold; position:absolute; left:8%;  top:35%; letter-spacing:3px; font-size:13px; opacity:.3; text-align:center;}
-	 #bio{color:black; text-decoration:none; font-weight:bold; position:absolute; left:8%; top:42%; letter-spacing:3px; font-size:13px; opacity:.3;}
+	 #home{color:white; text-decoration:none; font-weight:bold; position:absolute; left:0%;  top:%; letter-spacing:3px; font-size:13px; opacity:1;}
+	 #bio{color:black; text-decoration:none; font-weight:bold; position:absolute; left:8%; top:42%; letter-spacing:3px; font-size:13px; opacity:1;}
 	 #works{color:black; text-decoration:none; font-weight:bold; position:absolute; left:8%; top:49%; letter-spacing:3px; font-size:13px; opacity:.3;}
 	 #contact{color:black; font-weight:bold;text-decoration:none; position:absolute; left:8%; top:56%; letter-spacing:3px; font-size:13px; opacity:.3}
 	 #exhibition{color:black; font-weight:bold;text-decoration:none;position:absolute; left:8%; top:63%; letter-spacing:3px; font-size:13px; opacity:.3}
@@ -112,21 +112,27 @@
 }
 
 @media only screen and (max-width:768px){
+	 #menu-bar{display:none;}
+	 
 	 main{display:none;}
-	 #preload-page{width:100%; height:100%; background:white; display:block;}
-	 #preload-img{position:absolute; width:100%; height:100%;}
-	 #preloader{position:absolute; top:90%; right:5%; width:28px; height:28px; border-radius:50px; border-top:2px solid red; border-left:2px solid teal; border-right:2px solid black; border-bottom:2px solid grey; display:none; animation:rotator  1s infinite; }
+	 
+	 
+	 #preload-page{width:100%; height:100%; display:block; z-index:9999;}
+	 #preload-img{position:absolute; width:100%; height:100%; display:block;}
+	 #preloader{position:absolute; top:90%; right:5%; width:28px; height:28px; border-radius:50px; background:blue; display:none;}
 	 @keyframes rotator{
 	 from{transform:rotate(0deg)}
 	 to{transform:rotate(360deg)}
 		}
-	#progress1{position:absolute; top:75%; width:30%; left:35%; animation:change-progress linear 1s infinite 1s alternate;}
+	#progress1{position:absolute; top:75%; width:30%; left:35%; animation:change-progress linear 1s infinite 1s alternate; display:block;}
 	@keyframes change-progress{
 		25%{background:brown;}
 		50%{background:purple;}
 		75%{background:pink;}
 		100%{background:indigo;}
 	}
+		
+		
 	 #pichold>img{width:84%; left:8%; height:70%; top:8%;}
      #pichold>h3{bottom:10.5%; left:15%; color:black; font-weight:normal;}
      #pichold>h4{bottom:8%; left:15%; color:teal; font-weight:lighter;}

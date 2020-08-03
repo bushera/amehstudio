@@ -27,24 +27,59 @@
 	
 	
 	<link rel="stylesheet" href="/css/styles.css">
-	<script type="text/javascript" src="/topbar.js">
-        
-    </script>
+	<script type="text/javascript" src="/topbar.js"></script>
 
 </head>
 
 
 <body>
 	  <div id="preload-page">
-		<div id="preload-img" ><img id="preload-img" src="/images/preload-img.jpg"><div id="preloader"></div>
+		<div id="preload-img" ><img id="preload-img" src="/images/preload-img.jpg">
 			<div id="progress1" class="progress">
 				<div style="background:white" class="indeterminate"></div>
 			</div>
+		</div>
+		<div class="uk-position-center" id="preloader-cover">
+			<div id="preloader"></div>
 		</div>
 	 </div>
     
 
 <main>
+<div id="menu-bar" uk-sticky="animation:uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active:uk-navbar-sticky; cls-inactive:uk-navbar-transparent uk-light; top:150">
+		<nav class="uk-navbar-container">
+			<div class="uk-navbar-center uk-container uk-container-expand">
+				<div class="uk-navbar-right" uk-navbar="mode:click;">
+					
+					<ul class="uk-navbar-nav">
+					<li>
+					<a  href="#" >home</a>
+					</li>
+					<li>
+					<a  href="#" >bio</a>
+					</li>
+					<li>
+					<a  href="#" >works</a>
+					<div class="uk-navbar-dropdown">
+						<ul class="uk-nav uk-navbar-dropdown-nav">
+							<li><a id="year" href="#" >year</a></li><br>
+							<li><a id="series" href="#" >series</a></li>
+						</ul>
+					</div>
+					</li>
+					<li>
+					<a  href="#" >exhibition</a>
+					</li>
+					<li>
+					<a href="#" >contact</a>
+					</li>
+					</ul>
+					
+				</div>
+			</div>
+		</nav>
+		
+	</div>
 	<div uk-scrollspy="cls:uk-animation-fade; target:>.holder; delay:400; repeat:true;">
      <div id="pichold"  class="holder">
      <img data-src="/images/amestd0.jpg" uk-img></img>
@@ -204,7 +239,7 @@
 			
 			
 			<div uk-scrollspy="cls:uk-animation-fade; target:>.holder; delay:100; repeat:true;">
-			<div id="hr1" class=" holder uk-visible-toggle uk-overflow-hidden uk-light" tabindex="-1" uk-slideshow="autoplay:true; velocity:0.1000; autoplay-interval:1000; pause-on-hover:true;  min-height:150; max-height:400;">
+			<!--<div id="hr1" class=" holder uk-visible-toggle uk-overflow-hidden uk-light" tabindex="-1" uk-slideshow="autoplay:true; velocity:0.1000; autoplay-interval:1000; pause-on-hover:true;  min-height:150; max-height:400;">
 			
 				<ul class="uk-slideshow-items">
 					<li>
@@ -238,7 +273,7 @@
 						</div>
 					</li>
 				</ul>
-			</div>
+			</div>-->
 			</div>
 			
 			
@@ -277,7 +312,7 @@
 		
 		<div uk-lightbox="video-autoplay:true;">
 			<div id="video-cover">
-			<a id="video-box" href="/video/amestd.mp4"  data-type="video" data-caption="rele-YC2020"><span class="uk-icon-link" uk-icon="icon:play-circle; ratio:.75;" style="color:white;"></span><a>
+			<a id="video-box" href="https://youtu.be/K6XFJRkU-JY"  data-type="video" data-caption="rele-YC2020"><span class="uk-icon-link" uk-icon="icon:play-circle; ratio:.75;" style="color:white;"></span><a>
 			</div>
 		</div>
 		

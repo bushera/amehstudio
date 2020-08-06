@@ -190,7 +190,7 @@
 	 
 	 
 
-	
+	 #offslide-btn{display:block;}
 	 #offslide{background:white; position:fixed; width:200px; height:100%; left:-100%; opacity:1; display:block;}
 	 #offslide-h1{position:absolute; font-size:19px; letter-spacing:2px; top:-3%; left:-70%; font-family:gothic; font-weight:normal;}
 	 #offslide>button{position:absolute; top:96%; right:3%;}

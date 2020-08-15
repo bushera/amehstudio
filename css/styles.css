@@ -91,8 +91,8 @@
 	 #hr1{position:absolute; width:100%; height:6.5%; background:rgba(0,0,0,.035); top:12%; opacity:1; border-top:1px solid rgba(0,0,0,.05);  border-bottom:1px solid rgba(0,0,0,.05);}
 	 #year-input{position:absolute; width:70%; left:1%; height:60%; top:18.5%; text-align:center; font-weight:bold; font-size:12px; text-decoration:none;}
 	 
-	 #h61{top:550%; color:teal; position:absolute; font-size:14px; left:43%; text-align:center;}
-	 #h62{top:550%; color:black; position:absolute; font-size:14px; left:50%; text-align:center;}
+	 #h61{top:550%; color:rgba(0,0,0,.5); position:absolute; font-size:14px; left:43%; text-align:center;}
+	 #h62{top:550%; color:rgba(0,0,0,.5); position:absolute; font-size:14px; left:50%; text-align:center;}
 
 
 	 
@@ -163,8 +163,8 @@
 	 #pichold4>#download{position:absolute; bottom:5%; right:10%;}
 	 #pichold4>#cart4{position:absolute; bottom:5%; right:5%;}
 	 
-	 #h61{top:550%; color:teal; position:absolute; font-size:12px; left:28.5%; text-align:center;}
-	 #h62{top:550%; color:black; position:absolute; font-size:12px; right:28.5%; text-align:center;}
+	 #h61{top:550%; color:rgba(0,0,0,.5); position:absolute; font-size:12px; left:28.5%; text-align:center;}
+	 #h62{top:550%; color:rgba(0,0,0,.5); position:absolute; font-size:12px; right:28.5%; text-align:center;}
 
 	 #modal-form{position:absolute; height:100%; width:100%;}
 	 #modal-form>h2{font-size:16px; font-weight:bold; position:absolute; top:7%; letter-spacing:5px; text-align:center;}

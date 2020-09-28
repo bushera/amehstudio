@@ -177,15 +177,15 @@
 	 #email-input{position:absolute; width:42%; left:50%; top:52%; color:teal }
      #location-input{position:absolute; width:42%; left:50%; top:65%; color:teal; text-transform:capitalize; }
 	  
-	 #video-cover{position:absolute; top:529%; right:5px; background:teal; opacity:.4; width:21px; height:21px; border-radius:35%;}
+	 #video-cover{position:absolute; top:522%; left:70%; background:teal; opacity:.4; width:21px; height:21px; border-radius:35%;}
 	 #video-box{position:absolute; top:-3%; left:15%;}
-	 #mail-cover{position:absolute; top:529%; right:35px; background:darkred; opacity:.4; width:21px; height:21px; border-radius:35%;}
-	 #mail{position:absolute; top:-3%; right:10%;}
-	 #facebook-cover{position:absolute; top:529%; right:65px; background:darkblue; opacity:.4; width:21px; height:21px; border-radius:35%;}
-	 #facebook-social{position:absolute; top:-3%; right:10%;}
-	 #instagram-cover{position:absolute; top:529%; right:95px; background:purple; opacity:.4; width:21px; height:21px; border-radius:35%;}
-	 #instagram-social{position:absolute; top:-3%; right:10%;}
-	 #top-scroll{position:absolute; top:529%; right:125px; background:black; opacity:.7; width:21px; height:21px; border-radius:35%;}
+	 #mail-cover{position:absolute; top:522%; left:60%; background:darkred; opacity:.4; width:21px; height:21px; border-radius:35%;}
+	 #mail{position:absolute; top:-3%; right:15%;}
+	 #facebook-cover{position:absolute; top:522%; left:50%; background:darkblue; opacity:.4; width:21px; height:21px; border-radius:35%;}
+	 #facebook-social{position:absolute; top:-3%; right:15%;}
+	 #instagram-cover{position:absolute; top:522%; left:40%; background:purple; opacity:.4; width:21px; height:21px; border-radius:35%;}
+	 #instagram-social{position:absolute; top:-3%; right:15%;}
+	 #top-scroll{position:absolute; top:522%; left:30%; background:black; opacity:.7; width:21px; height:21px; border-radius:35%;}
 	 #top{position:absolute; top:-3%; right:10%;}
 	 
 	 

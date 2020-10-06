@@ -1,9 +1,10 @@
 
 
-#menu-bar>nav{background:teal; position:absolute; top:-100%;}
+#menu-bar>nav{background:rgba(0,0,0,.7); position:absolute; top:-100%;}
 #year{position:absolute; color:red; top:0%;  width:0%; background:transparent;}
 #series{position:absolute; color:red; bottom:0%; width:0%; background:transparent;}
 
+main{display:none;}
 
 #preload-page{position:fixed; top:0%; left:0%; width:100%; height:100%; background:white; display:block; z-index:999; overflow:hidden; }
 #preload-img{position:absolute; width:100%; height:100%; display:none;}
@@ -60,7 +61,10 @@
 #toplink{display:block;}
 
 @media only screen and (min-width:768px){
-	  #modal-form{position:absolute; height:100%; width:100%;}
+	 h1{position:absolute; font-size:12px; font-family:Cursive; color:rgba(0,0,0,.3); font-weight:bold; left:50%; top:534%; letter-spacing:4px;}
+	 #top-img{position:absolute; top:535.5%; height:10%; left:42%; width:12%;}
+	
+	 #modal-form{position:absolute; height:100%; width:100%;}
 	 #modal-form>h2{font-size:16px; font-weight:bold; position:absolute; top:7%; letter-spacing:5px; text-align:center;}
 	 #modal-form>h3{font-size:12px;  position:absolute; right:10%; top:20%;} 
 	 #modal-form>h4{font-size:10px;  position:absolute; right:10.5%; top:26%;}
@@ -71,15 +75,15 @@
 	 #email-input{position:absolute; width:42%; left:50%; top:52%; color:teal }
      #location-input{position:absolute; width:42%; left:50%; top:65%; color:teal; text-transform:capitalize; }
 	 
-	 #video-cover{position:absolute; top:535%; left:600px; background:teal; opacity:.4; width:21px; height:21px; border-radius:35%;}
+	 #video-cover{position:absolute; display:none; top:535%; left:600px; background:teal; opacity:.4; width:21px; height:21px; border-radius:35%;}
 	 #video-box{position:absolute; top:-3%; left:15%;}
-	 #mail-cover{position:absolute; top:535%; left:630px; background:darkred; opacity:.4; width:21px; height:21px; border-radius:35%;}
+	 #mail-cover{position:absolute; display:none; top:535%; left:630px; background:darkred; opacity:.4; width:21px; height:21px; border-radius:35%;}
 	 #mail{position:absolute; top:-3%; right:15%;}
-	 #facebook-cover{position:absolute; top:535%; left:660px; background:darkblue; opacity:.4; width:21px; height:21px; border-radius:35%;}
+	 #facebook-cover{position:absolute; display:none; top:535%; left:660px; background:darkblue; opacity:.4; width:21px; height:21px; border-radius:35%;}
 	 #facebook-social{position:absolute; top:-3%; right:15%;}
-	 #instagram-cover{position:absolute; top:535%; left:690px; background:purple; opacity:.4; width:21px; height:21px; border-radius:35%;}
+	 #instagram-cover{position:absolute; display:none; top:535%; left:690px; background:purple; opacity:.4; width:21px; height:21px; border-radius:35%;}
 	 #instagram-social{position:absolute; top:-3%; right:15%;}
-	 #top-scroll{position:absolute; top:535%; left:720px; background:black; opacity:.7; width:21px; height:21px; border-radius:35%;}
+	 #top-scroll{position:absolute; display:none; top:535%; left:720px; background:black; opacity:.7; width:21px; height:21px; border-radius:35%;}
 	 #top{position:absolute; top:-3%; right:10%;}
 	 
 
@@ -132,6 +136,8 @@
 		100%{background:indigo;}
 	}
 		
+	 h1{position:absolute; font-size:12px; font-family:Cursive; color:rgba(0,0,0,.3); font-weight:bold; left:45%; top:534%; letter-spacing:4px;}
+	 #top-img{position:absolute; top:535.5%; height:10%; left:32%; width:18%;}
 		
 	 #pichold>img{width:84%; left:8%; height:70%; top:8%;}
      #pichold>h3{bottom:10.5%; left:15%; color:black; font-weight:normal;}
@@ -177,22 +183,28 @@
 	 #email-input{position:absolute; width:42%; left:50%; top:52%; color:teal }
      #location-input{position:absolute; width:42%; left:50%; top:65%; color:teal; text-transform:capitalize; }
 	  
-	 #video-cover{position:absolute; top:522%; left:70%; background:teal; opacity:.4; width:21px; height:21px; border-radius:35%;}
+	 #showbar{position:fixed; height:12%; width:100%; background:white; z-index:999;}
+	 #video-cover{position:absolute; top:40%; right:70%; background:orange; opacity:.4; width:21px; height:21px; border-radius:50%; filter:grayscale(100);}
 	 #video-box{position:absolute; top:-3%; left:15%;}
-	 #mail-cover{position:absolute; top:522%; left:60%; background:darkred; opacity:.4; width:21px; height:21px; border-radius:35%;}
+	 #video-cover:hover{opacity:.8; filter:grayscale(0);}
+	 #mail-cover{position:absolute; top:40%; right:40%; background:darkred; opacity:.4; width:21px; height:21px; border-radius:50%; filter:grayscale(100);}
 	 #mail{position:absolute; top:-3%; right:15%;}
-	 #facebook-cover{position:absolute; top:522%; left:50%; background:darkblue; opacity:.4; width:21px; height:21px; border-radius:35%;}
+	 #mail-cover:hover{opacity:.8; filter:grayscale(0);}
+	 #facebook-cover{position:absolute; top:40%; right:50%; background:darkblue; opacity:.4; width:21px; height:21px; border-radius:50%; filter:grayscale(100);}
 	 #facebook-social{position:absolute; top:-3%; right:15%;}
-	 #instagram-cover{position:absolute; top:522%; left:40%; background:purple; opacity:.4; width:21px; height:21px; border-radius:35%;}
+	 #facebook-cover:hover{opacity:.8; filter:grayscale(0);}
+	 #instagram-cover{position:absolute; top:40%; right:60%; background:purple; opacity:.4; width:21px; height:21px; border-radius:50%; filter:grayscale(100);}
 	 #instagram-social{position:absolute; top:-3%; right:15%;}
-	 #top-scroll{position:absolute; top:522%; left:30%; background:black; opacity:.7; width:21px; height:21px; border-radius:35%;}
-	 #top{position:absolute; top:-3%; right:10%;}
+	 #instagram-cover:hover{opacity:.8; filter:grayscale(0);}
+	 #menu-cover{position:absolute; top:40%; right:30%; background:teal; opacity:.4; width:21px; height:21px; border-radius:50%; filter:grayscale(100);}
+	 #offslide-btn{position:absolute; top:-3%; right:15%;}
+	 #menu-cover:hover{opacity:.8; filter:grayscale(0);}
 	 
 	 
 
 	 #offslide-btn{display:block;}
-	 #offslide{background:white; position:fixed; width:45%; height:100%; left:-100%; opacity:1; display:block;}
-	 #offslide-h1{position:absolute; font-size:19px; letter-spacing:2px; top:13%; left:-70%; font-family:gothic; font-weight:normal;}
+	 #offslide{background:white; position:fixed; width:100%; height:100%; left:-100%; opacity:1; display:block;}
+	 #offslide-h1{position:absolute; font-size:19px; letter-spacing:2px; top:13%; left:-70%; font-family:gothic; font-weight:normal; display:none;}
 	 #offslide>button{position:absolute; top:96%; right:3%;}
 	 #hr1{position:absolute; width:100%; height:25%; background:transparent; top:11%; opacity:1; border-top:1px solid rgba(0,0,0,.05);  border-bottom:1px solid rgba(0,0,0,.05);}
 	 #darkmode{position:absolute; top:38%; left:75%; color:black; width:0%; height:0%; }

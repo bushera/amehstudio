@@ -169,8 +169,8 @@ main{display:none;}
 	 #pichold4>#download{position:absolute; bottom:5%; right:10%;}
 	 #pichold4>#cart4{position:absolute; bottom:5%; right:5%;}
 	 
-	 #h61{top:550%; color:rgba(0,0,0,.5); position:absolute; font-size:12px; left:28.5%; text-align:center;}
-	 #h62{top:550%; color:rgba(0,0,0,.5); position:absolute; font-size:12px; right:28.5%; text-align:center;}
+	 #h61{top:542%; color:rgba(0,0,0,.5); position:absolute; font-size:12px; left:28.5%; text-align:center;}
+	 #h62{top:542%; color:rgba(0,0,0,.5); position:absolute; font-size:12px; right:28.5%; text-align:center;}
 
 	 #modal-form{position:absolute; height:100%; width:100%;}
 	 #modal-form>h2{font-size:16px; font-weight:bold; position:absolute; top:7%; letter-spacing:5px; text-align:center;}

@@ -61,9 +61,6 @@ main{display:none;}
 #toplink{display:block;}
 
 @media only screen and (min-width:768px){
-	 h1{position:absolute; font-size:12px; font-family:Cursive; color:rgba(0,0,0,.3); font-weight:bold; left:50%; top:534%; letter-spacing:4px;}
-	 #top-img{position:absolute; top:535.5%; height:10%; left:42%; width:12%;}
-	
 	 #modal-form{position:absolute; height:100%; width:100%;}
 	 #modal-form>h2{font-size:16px; font-weight:bold; position:absolute; top:7%; letter-spacing:5px; text-align:center;}
 	 #modal-form>h3{font-size:12px;  position:absolute; right:10%; top:20%;} 
@@ -135,9 +132,6 @@ main{display:none;}
 		75%{background:pink;}
 		100%{background:indigo;}
 	}
-		
-	 h1{position:absolute; font-size:12px; font-family:Cursive; color:rgba(0,0,0,.3); font-weight:bold; left:45%; top:534%; letter-spacing:4px;}
-	 #top-img{position:absolute; top:535.5%; height:10%; left:32%; width:18%;}
 		
 	 #pichold>img{width:84%; left:8%; height:70%; top:8%;}
      #pichold>h3{bottom:10.5%; left:15%; color:black; font-weight:normal;}

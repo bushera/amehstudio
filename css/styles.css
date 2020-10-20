@@ -68,9 +68,9 @@ main{display:none;}
 	 #modal-form>button{position:absolute; top:90%; right:8%; border-radius:25px; background:#424242; border:2px solid cyan; color:white; height:25px; font-size:15px;}
 	 #modal-img{position:absolute; bottom:10%; width:30%; height:75%; filter:grayscale(10);  border:2.5px solid grey; opacity:.8;}
 	 #modal-dialog{height:90%; width:90%; border-radius:25px 0px 25px 25px; background:#424242; }
-	 #type-input{position:absolute; width:42%; left:50%; top:40%; color:teal }
-	 #email-input{position:absolute; width:42%; left:50%; top:52%; color:teal }
-     #location-input{position:absolute; width:42%; left:50%; top:65%; color:teal; text-transform:capitalize; }
+	 #type-input{position:absolute; width:42%; left:50%; top:40%; color:white }
+	 #email-input{position:absolute; width:42%; left:50%; top:52%; color:white }
+     #location-input{position:absolute; width:42%; left:50%; top:65%; color:white; text-transform:capitalize; }
 	 
 	 #video-cover{position:absolute; display:none; top:535%; left:600px; background:teal; opacity:.4; width:21px; height:21px; border-radius:35%;}
 	 #video-box{position:absolute; top:-3%; left:15%;}
@@ -173,9 +173,9 @@ main{display:none;}
 	 #modal-form>button{position:absolute; top:90%; right:8%; border-radius:25px; background:#424242; border:2px solid cyan; color:white; height:25px; font-size:15px;}
 	 #modal-img{position:absolute; bottom:25%; left:5%; filter:grayscale(10);  border:1.5px solid grey; opacity:.8;}
 	 #modal-dialog{height:90%; width:90%; border-radius:25px 0px 25px 25px; background:#424242 }
-	 #type-input{position:absolute; width:42%; left:50%; top:40%; color:teal }
-	 #email-input{position:absolute; width:42%; left:50%; top:52%; color:teal }
-     #location-input{position:absolute; width:42%; left:50%; top:65%; color:teal; text-transform:capitalize; }
+	 #type-input{position:absolute; width:42%; left:50%; top:40%; color:white }
+	 #email-input{position:absolute; width:42%; left:50%; top:52%; color:white }
+     #location-input{position:absolute; width:42%; left:50%; top:65%; color:white; text-transform:capitalize; }
 	  
 	 #showbar{position:fixed; height:12%; width:100%; background:white; z-index:999;}
 	 #video-cover{position:absolute; top:40%; right:70%; background:orange; opacity:.4; width:21px; height:21px; border-radius:50%; filter:grayscale(100);}

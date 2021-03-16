@@ -3,7 +3,7 @@
 
 <head>
 
-<title> ameh-studio </title>
+<title>Artworks </title>
 <meta charset="utf-8">
     <!--responsive-->
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1,maximum-scale=1,user-scalable=no">
@@ -11,7 +11,7 @@
     <meta name="HandheldFriendly" content="true">
    
     <!--CSS-->
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">    
 	<link rel="stylesheet" href="/css/uikit.min.css">
 	<link rel="stylesheet" href="/css/materialize.min.css">
 	
@@ -33,16 +33,18 @@
 
 
 <body>
-	  <div id="preload-page">
-		<div id="preload-img" ><img id="preload-img" src="/images/preload-img.jpg">
-			<div id="progress1" class="progress">
-				<div style="background:white" class="indeterminate"></div>
-			</div>
+	<div id="preload-page">
+		
+			
+		<img class="uk-position uk-position-center" id="preload-img" src="/images/ameh-logo.svg">
+		
+		<h1 class="uk-position uk-position-center">amehegwuh</h1>
+
+		<div class="uk-position uk-position-center" id="preloader">
+				<span></span>
 		</div>
-		<div class="uk-position-center" id="preloader-cover">
-			<div id="preloader"></div>
-		</div>
-	 </div>
+	
+</div>
     
 
 <main>
@@ -81,17 +83,30 @@
 			</div>
 		</nav>
 		
-	</div>
-	<div uk-scrollspy="cls:uk-animation-fade; target:>.holder; delay:400; repeat:true;">
-     <div id="pichold"  class="holder">
-     <img data-src="/images/amestd0.jpg" uk-img></img>
-     <h3>AGED</h3>
-     <h4>2018</h4>
-	 <a id="download" href="/original/amestd0.jpg" download="AGED...amehegwuh"><span class="uk-icon-link" uk-icon="icon:download;"></span></a>
-     <a id="cart" href="#carttoggle"  uk-toggle><span class="uk-icon-link" uk-icon="icon:cart;"></span></a>
-	 </div>
+</div>
+
+
+
+	<div id="artworks-house" uk-scrollspy="cls:uk-animation-fade; target:>.holder; delay:250; repeat:true;">
 	 
-	  <div id="carttoggle" class="uk-modal-container" uk-modal>
+		<a id="menu-btn" href="#"  ><img src="/images/gg_menu-left.svg"/></a>
+	
+		
+	<div id="art1"  class="holder">
+	 <img data-src="/images/amestd0.jpg" uk-img></img>
+
+	<div id="art-overlay1">
+		<h3>AGED</h3>
+		<h4>2018</h4>
+		<a id="download" href="/original/amestd0.jpg" download="AGED...amehegwuh"><span class="uk-icon-link" uk-icon="icon:download;"></span></a>
+		<a id="cart" href="#carttoggle"  uk-toggle><span class="uk-icon-link" uk-icon="icon:cart;"></span></a>
+	</div>
+
+
+	</div>
+	
+	 
+	 <div id="carttoggle" class="uk-modal-container" uk-modal>
 		<div id="modal-dialog" class="uk-modal-dialog uk-position-small uk-position-center" uk-grid>
 			<form action="/success-page" subject="PURCHASE REQUEST FOR AGED" name="aged" data-netlify="true"  id="modal-form" method="POST">
 			<img  name="image" id="modal-img" data-src="/images/amestd0.jpg" width="40%" height="30%"  uk-img>
@@ -110,14 +125,20 @@
 	 </div>	
 	 </div>
    
+
+
    
-     <div id="pichold1"  class="holder">
-     <img data-src="/images/amestd1.jpg" uk-img></img>
+     <div id="art2"  class="holder">
+	 <img data-src="/images/amestd1.jpg" uk-img></img>
+	 
+	 <div id="art-overlay2">
      <h3>MY AFRICAN WOMAN</h3>
      <h4>2017</h4>
 	 <a id="download" href="/original/amestd1.jpg" download="my african woman...amehegwuh"><span class="uk-icon-link" uk-icon="icon:download;"></span></a>
      <a id="cart1" href="#carttoggle1" uk-toggle><span class="uk-icon-link" uk-icon="icon:cart;"></span></a>
-     </div>
+	</div>
+	
+	</div>
 	 
 	 <div id="carttoggle1" class="uk-modal-container" uk-modal>
 		<div id="modal-dialog" class="uk-modal-dialog uk-position-small uk-position-center" uk-grid>
@@ -137,14 +158,21 @@
 		<button class="uk-modal-close-outside" type="button" uk-close></button>
 	 </div>	
 	 </div>
-     
-     <div id="pichold2"  class="holder">
+	 
+	 
+
+
+     <div id="art3"  class="holder">
      <img data-src="/images/amestd2.jpg" uk-img></img>
-     <h3>SELF TORTURE</h3>
+	 
+	 <div id="art-overlay3">
+	 <h3>SELF TORTURE</h3>
      <h4>2018</h4>
 	 <a id="download" href="/original/amestd2.jpg" download="self torture...amehegwuh"><span class="uk-icon-link" uk-icon="icon:download;"></span></a>
      <a id="cart2" href="#carttoggle2" uk-toggle><span class="uk-icon-link" uk-icon="icon:cart;"></span></a>
-     </div>
+	 </div>
+	 
+	</div>
 	 
 	 <div id="carttoggle2" class="uk-modal-container" uk-modal>
 		<div id="modal-dialog" class="uk-modal-dialog uk-position-small uk-position-center" uk-grid>
@@ -167,13 +195,17 @@
 	 
 	 
      
-     <div id="pichold3"  class="holder">
+     <div id="art4"  class="holder">
      <img data-src="/images/amestd3.jpg" uk-img></img>
-     <h3>SOME WORDS ARE NOISE</h3>
+	
+	<div id="art-overlay4">
+	 <h3>SOME WORDS ARE NOISE</h3>
      <h4>2019</h4>
 	 <a id="download" href="/original/amestd3.jpg" download="SOME WORDS AE NOISE...amehegwuh"><span class="uk-icon-link" uk-icon="icon:download;"></span></a>
      <a id="cart3" href="#carttoggle3" uk-toggle><span class="uk-icon-link" uk-icon="icon:cart;"></span></a>
-     </div>
+	 </div>
+	 
+	</div>
 	 
 	 <div id="carttoggle3" class="uk-modal-container" uk-modal>
 		<div id="modal-dialog" class="uk-modal-dialog uk-position-small uk-position-center" uk-grid>
@@ -196,13 +228,17 @@
 	 
 	 
 	 
-	 <div id="pichold4"  class="holder">
-     <img data-src="/images/amestd4.jpg" uk-img></img>
+	 <div id="art5"  class="holder">
+	 <img data-src="/images/amestd4.jpg" uk-img></img>
+	 
+	 <div id="art-overlay5">
      <h3>SOME WORDS ARE NOISE</h3>
      <h4>2019</h4>
 	 <a id="download" href="/original/amestd4.jpg" download="SOME WORDS AE NOISE...amehegwuh"><span class="uk-icon-link" uk-icon="icon:download;"></span></a>
      <a id="cart4" href="#carttoggle4" uk-toggle><span class="uk-icon-link" uk-icon="icon:cart;"></span></a>
-     </div>
+	 </div>
+	 
+	</div>
 	 
 	 <div id="carttoggle4" class="uk-modal-container" uk-modal>
 		<div id="modal-dialog" class="uk-modal-dialog uk-position-small uk-position-center" uk-grid>
@@ -230,111 +266,64 @@
  
  
  
-<h6 id="h61">&copy; 2018-2020</h6>
-<h6 id="h62">Ameh Egwuh</h6>
 
 
 
-		   <div id="offslide"class="uk-overflow-auto">
-			<h1 id="offslide-h1">Ameh Egwuh</h1>
-			
-			
-			<div uk-scrollspy="cls:uk-animation-fade; target:>.holder; delay:100; repeat:true;">
-			<!--<div id="hr1" class=" holder uk-visible-toggle uk-overflow-hidden uk-light" tabindex="-1" uk-slideshow="autoplay:true; velocity:0.1000; autoplay-interval:1000; pause-on-hover:true;  min-height:150; max-height:400;">
-			
-				<ul class="uk-slideshow-items">
-					<li>
-						<img onclick="alert('welcome in')" data-src="/Original/amestd4.jpg" style="width:100%; height:100%;" uk-img>
-						<div style="position:absolute; height:5%; bottom:0%; width:100%" class="uk-overlay uk-overlay-primary">
-							<p>dfehdfdfg </p>
-						</div>
-					</li>
-					<li>
-						<img data-src="/Original/amestd8.jpg" style="width:100%; height:100%;" uk-img>
-						<div style="position:absolute; height:5%; bottom:0%; width:100%" class="uk-overlay uk-overlay-primary">
-							<p>dfehdfdfg </p>
-						</div>
-					</li>
-					<li >
-						<img data-src="/Original/amestd10.jpg" style="width:100%; height:100%;" uk-img>
-						<div style="position:absolute; height:5%; bottom:0%; width:100%" class="uk-overlay uk-overlay-primary">
-							<p>nbvxvc </p>
-						</div>
-					</li>
-					<li >
-						<img data-src="/Original/amestd6.jpg" style="width:100%; height:100%;" uk-img>
-						<div style="position:absolute; height:5%; bottom:0%; width:100%" class="uk-overlay uk-overlay-primary">
-							<p>hgfvgfhghg</p>
-						</div>
-					</li>
-					<li >
-						<img data-src="/Original/amestd3.jpg" style="width:100%; height:100%;" uk-img>
-						<div style="position:absolute; height:0%; bottom:0%; width:100%" class="uk-overlay uk-overlay-primary">
-							<p>xvxzccxxv</p>
-						</div>
-					</li>
-				</ul>
-			</div>-->
-			</div>
-			
-			
-			<div id="darkmode" class="container">
-				<div  class="custom-control custom-switch">
-				<input  type="checkbox" class="custom-control-input" id="darkswitch">
-				<label class="custom-control-label" for="darkswitch"></label>
-				</div>
-			</div>
-			
-			
-			
-				<div id="toplink">
-					<a id="home" href="amehegwuh.netlify.com" >home</a><br>
-					<a id="exhibition" href="amestudio.netlify.com" >exhibition</a><br>
-					<a id="works"  href="#">works</a>
-					<div id="down">
-						<a id="mob-year" href="file:///C:/Users/USER-PC/Desktop/BE/web%20designs/ameyear.html" >year</a>
-						<a id="mob-series" href="amestudio.netlify.com" >series</a>
-					</div>
-					<span id="works-span" style="font-size:6px; color:teal;" class="glyphicon glyphicon-plus"></span>
-					<span id="works-span2" style="font-size:6px; color:red;" class="glyphicon glyphicon-plus"></span>
-					<a id="contact" href="#" >contact</a><br>
-					<a id="bio" href="#" >bio</a><br>
-				</div>
-				
-			<div id="close-cover">
-			<a id="offslide-close"  class="uk-close-small" ><span class="uk-icon-link" style="color:white" uk-icon="icon:menu; ratio:.75;"></span></a>
-			</div>
+
+<div id="offslide" class="uk-overflow-auto">
 	
+	
+	
+	<!--<div id="darkmode" class="container">
+		<div  class="custom-control custom-switch">
+		<input  type="checkbox" class="custom-control-input" id="darkswitch">
+		<label class="custom-control-label" for="darkswitch"></label>
 		</div>
+	</div>-->
+	
+	
+	
+		<div id="toplink">
+			<a id="home" href="file:///C:/Users/USER-PC/Desktop/BE/web%20designs/amehome.html" >home</a><br>
+			<a id="painting"  href="#">painting</a>
+			<div id="down">
+				<a id="mob-year" href="file:///C:/Users/USER-PC/Desktop/BE/web%20designs/ameyear.html" >year</a>
+				<a id="mob-series" href="file:///C:/Users/USER-PC/Desktop/BE/web%20designs/ameseries.html" >series</a>
+			</div>
+			<span id="works-span"  class="fas fa-minus"></span>
+			<span id="works-span2"  class="fas fa-plus"></span>
+			<a id="exhibition" href="amestudio.netlify.com" >exhibition</a><br>
+			<a id="profile" href="#" >profile</a><br>
+			<a id="contact" href="file:///C:/Users/USER-PC/Desktop/BE/web%20designs/amebio.html" >contact</a><br>
+			
+		
+		</div>
+	
+		
+			<a id="close-trigger"  href="#" uk-close="ratio:.8" ></a>
+		
+	
+		
+			
+
+			<div id="offslide-down-1"></div>
+
+
+		
+				
+				
+</div>
 		
 		
 		
 	<!--UKIT WORKS-->
 	
 		
-	<div id="showbar">
-		<div uk-lightbox="video-autoplay:true;">
-			<div id="video-cover">
-			<a id="video-box" href="https://youtu.be/K6XFJRkU-JY"  data-caption="rele-YC2020"><span class="uk-icon-link" uk-icon="icon:play-circle; ratio:.75;" style="color:white;"></span></a>
-			</div>
-		</div>
+	
 		
-		<div id="mail-cover">
-        <a id="mail" href="mailto:ameamehame@gmail.com" ><span class="uk-icon-link" uk-icon="icon:google; ratio:.75;" style="color:white;"></span></a>	
-		</div>
-		<div id="facebook-cover">
-		<a id="facebook-social" href="https://www.facebook.com/egwuh.amehkelvinace" ><span class="uk-icon-link" uk-icon="icon:facebook; ratio:.75;" style="color:white;"></span></a>
-		</div>
-		<div id="instagram-cover">
-		<a id="instagram-social" href="https://www.instagram.com/ameh_egwuh/" ><span class="uk-icon-link" uk-icon="icon:instagram; ratio:.75;" style="color:white;"></span></a>	
-		</div>
-		<div id="menu-cover">
-		<a id="offslide-btn" href="#"  ><span class="uk-icon-link" style="color:white" uk-icon="icon:menu; ratio:.75;"></span></a>
-		</div>
-		<div id="close-trigger">
-		<a id="offslide-trigger" ><span class="uk-icon-link" style="color:white" uk-icon="icon:menu; ratio:.75;"></span></a>
-		</div>
-	</div>	
+	
+			
+
 		
 		
 

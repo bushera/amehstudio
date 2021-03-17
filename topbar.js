@@ -1,6 +1,8 @@
  $(function(){
 		$("main").show();
-		$("#preload-page").delay(3000).fadeOut(800);
+		$("#preloader-text-desktop").delay(1300).animate({right: "22.5%"}, 1500);
+		$("#preloader-text-mobile").delay(1300).animate({left: "50%"}, 1500);
+		$("#preload-page").delay(3800).fadeOut(1200);
 	 
 		$("#menu-btn").click(function(){
 			$("#close-trigger").css("display", "block");

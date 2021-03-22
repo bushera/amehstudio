@@ -1,14 +1,16 @@
+
+ 
  $(function(){
 		$("main").show();
 		$("#preloader-text-desktop").delay(1300).animate({right: "22.5%"}, 1500);
-		$("#preloader-text-mobile").delay(1300).animate({left: "50%"}, 1500);
+		
 		$("#preload-page").delay(3800).fadeOut(1200);
 	 
 		$("#menu-btn").click(function(){
 			$("#close-trigger").css("display", "block");
 			$("#offslide").animate({left: "0%"}, 600);
 			$("#artworks-house").animate({left: "-100%"}, 800);
-			$("#menu-btn").css("display", "none");
+			$(".navbar-house").animate({right: "-100%"}, 500);
 			$("#offslide-h1").animate({left: "15%"} ,900);
 			$("#offslide-down-1").animate({bottom: "0%"} ,200);
 			$("#offslide-down-1").animate({width: "100%"} ,400);
@@ -17,7 +19,7 @@
 	
 		$("#close-trigger").click(function(){
 			$("#offslide").animate({left: "-100%"}, 600);
-			$("#menu-btn").css("display", "block");
+			$(".navbar-house").animate({right: "0%"}, 400);
 			$("#artworks-house").animate({left: "0%"}, 500);
 			$("#offslide-h1").animate({left: "-70%"}, 900);
 			$("#close-trigger").css("display", "block");
@@ -28,42 +30,57 @@
 
 
 
-
-
-
 		$("#art1").mouseenter(function(){
-			$("#art1 img").animate({width: "100%", left: "0%", opacity: "0.25"}, 800)
+			$("#art1 img").animate({width: "100%", left: "0%", opacity: "0.25"}, 800);
 			$("#art-overlay1").animate({width: "100%"}, 800);
+			$("#art1 h3").css("display", "block");
+			$("#art1 #download").css("display", "block");
+			$("#artworks-house #cart").css("display", "block");
 			
 		});
 		
 		$("#art1").mouseleave(function(){
 			$("#art1 img").animate({width: "95%", left: "5%", opacity: "1"}, 1000)
 			$("#art-overlay1").animate({width: "0%"}, 1000);
+			$("#art1 h3").css("display", "none");
+			$("#art1 #download").css("display", "none");
+			$("#artworks-house #cart").css("display", "none");
 			
 		});
 
 		$("#art2").mouseenter(function(){
 			$("#art2 img").animate({width: "100%", left: "0%", opacity: "0.25"}, 800)
 			$("#art-overlay2").animate({width: "100%"}, 800);
+			$("#art2 h3").css("display", "block");
+			$("#art2 #download").css("display", "block");
+			$("#artworks-house #cart1").css("display", "block");
 			
 		});
 		
 		$("#art2").mouseleave(function(){
 			$("#art2 img").animate({width: "95%", left: "5%", opacity: "1"}, 1000)
 			$("#art-overlay2").animate({width: "0%"}, 1000);
+			$("#art2 h3").css("display", "none");
+			$("#art2 #download").css("display", "none");
+			$("#artworks-house #cart1").css("display", "none");
 			
 		});
 
 		$("#art3").mouseenter(function(){
 			$("#art3 img").animate({width: "100%", left: "0%", opacity: "0.25"}, 800)
 			$("#art-overlay3").animate({width: "100%"}, 800);
+			$("#art3 h3").css("display", "block");
+			$("#art3 #download").css("display", "block");
+			$("#artworks-house #cart2").css("display", "block");
 			
 		});
 		
 		$("#art3").mouseleave(function(){
 			$("#art3 img").animate({width: "95%", left: "5%", opacity: "1"}, 1000)
 			$("#art-overlay3").animate({width: "0%"}, 1000);
+			$("#art3 h3").css("display", "none");
+			$("#art3 #download").css("display", "none");
+			$("#artworks-house #cart2").css("display", "none");
 			
 		});
 

@@ -14,25 +14,71 @@
     <link rel="stylesheet" href="/css/bootstrap.min.css">    
 	<link rel="stylesheet" href="/css/uikit.min.css">
 	<link rel="stylesheet" href="/css/materialize.min.css">
+	<link rel="stylesheet" href="/css/all.css">
+	<link rel="stylesheet" href="/css/animate.css">
+	
 	
 	<!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css">-->
 	
+
+	<!--google fonts-->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;900&family=Satisfy&family=Raleway:wght@100;200;400;500;700;900&display=swap" rel="stylesheet">
+
 	
+	<!--Animxyz-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@animxyz/core@0.4.0/dist/animxyz.min.css">
+
+
+
+
 	<!--jQuery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"
 			integrity="sha256-9/aliU8dGd2tb60SsuvixeV4y/faTqgFtohetphbbj0="
 			crossorigin="anonyous"></script>
+
+
+	<script src="https://code.jquery.com/jquery-3.6.0.js" 
+			integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" 
+			crossorigin="anonymous"></script>
+
+
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+			 integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" 
+			 crossorigin="anonymous"></script>
+
+
+
+	<!--gsap-->
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
 	
 	
+	
+	
+
+
+
+	<!--local-->
 	<link rel="stylesheet" href="/css/styles.css">
 	<script type="text/javascript" src="/topbar.js"></script>
 
 </head>
 
 
+
+
+
+
+
+
 <body>
+
+
 	<div id="preload-page">
 		
 			
@@ -58,57 +104,335 @@
 			<span></span>
 		</div>
 
-		<p id="preloader-text-desktop"> |Artworks </p>
+		
 		
 			
 	</div>
     
-
+	
 <main>
 
 
-<div id="menu-bar" uk-sticky="animation:uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active:uk-navbar-sticky; cls-inactive:uk-navbar-transparent uk-light; top:150">
-		<nav class="uk-navbar-container">
-			<div class="uk-navbar-center uk-container uk-container-expand">
-				<div class="uk-navbar-right" uk-navbar="mode:click;">
-					
-					<ul class="uk-navbar-nav">
-					<li>
-					<a  href="#" >home</a>
-					</li>
-					<li>
-					<a  href="#" >bio</a>
-					</li>
-					<li>
-					<a  href="#" >works</a>
-					<div class="uk-navbar-dropdown">
-						<ul class="uk-nav uk-navbar-dropdown-nav">
-							<li><a id="year" href="#" >year</a></li><br>
-							<li><a id="series" href="#" >series</a></li>
-						</ul>
-					</div>
-					</li>
-					<li>
-					<a  href="#" >exhibition</a>
-					</li>
-					<li>
-					<a href="#" >contact</a>
-					</li>
-					</ul>
-					
-				</div>
-			</div>
-		</nav>
-		
+
+
+<div id="artworks-house-desktop" uk-scrollspy="cls:uk-animation-slide-bottom; target:>.holder; delay:300;   ">
+	 
+	
+
+	
+<div id="art1-desk"  class="holder">
+ <img class="art-img" data-src="/images/amestd0.jpg" uk-img></img>
+ <img class="sidebar-img" data-src="/images/amestd0.jpg" uk-img></img>
+
+
+ <div class="art-sidebar">
+	<h3>AGED</h3>
+	
+ </div>
+
+
+<div id="art-overlay1-desk">
+	
+	<a id="download" href="/original/amestd0.jpg" download="AGED...amehegwuh"><span class="fas fa-cloud-download-alt"></span></a>
+	<a id="cart" href="#carttoggle"  uk-toggle><span  class="fab fa-opencart"></span></a>
 </div>
 
+
+</div>
+
+
+	
+<div id="art2-desk"  class="holder">
+	<img class="art-img" data-src="/images/amestd1.jpg" uk-img></img>
+	<img class="sidebar-img" data-src="/images/amestd1.jpg" uk-img></img>
+   
+   
+	<div class="art-sidebar">
+	   <h3>AGED</h3>
+	   
+	</div>
+   
+   
+   <div id="art-overlay2-desk">
+	   
+	   <a id="download" href="/original/amestd0.jpg" download="AGED...amehegwuh"><span class="fas fa-cloud-download-alt"></span></a>
+	   <a id="cart" href="#carttoggle"  uk-toggle><span  class="fab fa-opencart"></span></a>
+   </div>
+   
+   
+</div>
+
+<div id="art3-desk"  class="holder">
+	<img class="art-img" data-src="/images/amestd2.jpg" uk-img></img>
+	<img class="sidebar-img" src="/images/amestd2.jpg" uk-img></img>
+   
+   
+	<div class="art-sidebar">
+	   <h3>AGED</h3>
+	   
+	</div>
+   
+   
+   <div id="art-overlay3-desk">
+	   
+	   <a id="download" href="/original/amestd0.jpg" download="AGED...amehegwuh"><span class="fas fa-cloud-download-alt"></span></a>
+	   <a id="cart" href="#carttoggle"  uk-toggle><span  class="fab fa-opencart"></span></a>
+   </div>
+   
+   
+</div>
+
+<div id="art4-desk"  class="holder">
+	<img class="art-img" data-src="/images/amestd3.jpg" uk-img></img>
+	<img class="sidebar-img" data-src="/images/amestd3.jpg" uk-img></img>
+   
+   
+	<div class="art-sidebar">
+	   <h3>AGED</h3>
+	   
+	</div>
+   
+   
+   <div id="art-overlay4-desk">
+	   
+	   <a id="download" href="/original/amestd0.jpg" download="AGED...amehegwuh"><span class="fas fa-cloud-download-alt"></span></a>
+	   <a id="cart" href="#carttoggle"  uk-toggle><span  class="fab fa-opencart"></span></a>
+   </div>
+   
+   
+</div>
+
+<div id="art5-desk"  class="holder">
+	<img class="art-img" data-src="/images/amestd4.jpg" uk-img></img>
+	<img class="sidebar-img" data-src="/images/amestd4.jpg" uk-img></img>
+   
+   
+	<div class="art-sidebar">
+	   <h3>AGED</h3>
+	   
+	</div>
+   
+   
+   <div id="art-overlay5-desk">
+	   
+	   <a id="download" href="/original/amestd0.jpg" download="AGED...amehegwuh"><span class="fas fa-cloud-download-alt"></span></a>
+	   <a id="cart" href="#carttoggle"  uk-toggle><span  class="fab fa-opencart"></span></a>
+   </div>
+   
+   
+</div>
+
+<div id="art6-desk"  class="holder">
+	<img class="art-img" data-src="/images/amestd5.jpg" uk-img></img>
+	<img class="sidebar-img" data-src="/images/amestd5.jpg" uk-img></img>
+   
+   
+	<div class="art-sidebar">
+	   <h3>AGED</h3>
+	   
+	</div>
+   
+   
+   <div id="art-overlay6-desk">
+	   
+	   <a id="download" href="/original/amestd5.jpg" download="AGED...amehegwuh"><span class="fas fa-cloud-download-alt"></span></a>
+	   <a id="cart" href="#carttoggle"  uk-toggle><span  class="fab fa-opencart"></span></a>
+   </div>
+   
+   
+</div>
+
+<div id="art7-desk"  class="holder">
+	<img class="art-img" data-src="/images/amestd6.jpg" uk-img></img>
+	<img class="sidebar-img" data-src="/images/amestd6.jpg" uk-img></img>
+   
+   
+	<div class="art-sidebar">
+	   <h3>AGED</h3>
+	   
+	</div>
+   
+   
+   <div id="art-overlay7-desk">
+	   
+	   <a id="download" href="/original/amestd6.jpg" download="AGED...amehegwuh"><span class="fas fa-cloud-download-alt"></span></a>
+	   <a id="cart" href="#carttoggle"  uk-toggle><span  class="fab fa-opencart"></span></a>
+   </div>
+   
+   
+</div>
+
+<div id="art8-desk"  class="holder">
+	<img class="art-img" data-src="/images/amestd7.jpg" uk-img></img>
+	<img class="sidebar-img" data-src="/images/amestd7.jpg" uk-img></img>
+   
+   
+	<div class="art-sidebar">
+	   <h3>AGED</h3>
+	   
+	</div>
+   
+   
+   <div id="art-overlay8-desk">
+	   
+	   <a id="download" href="/original/amestd7.jpg" download="AGED...amehegwuh"><span class="fas fa-cloud-download-alt"></span></a>
+	   <a id="cart" href="#carttoggle"  uk-toggle><span  class="fab fa-opencart"></span></a>
+   </div>
+   
+   
+</div>
+
+<div id="art9-desk"  class="holder">
+	<img class="art-img" data-src="/images/amestd8.jpg" uk-img></img>
+	<img class="sidebar-img" data-src="/images/amestd8.jpg" uk-img></img>
+   
+   
+	<div class="art-sidebar">
+	   <h3>AGED</h3>
+	   
+	</div>
+   
+   
+   <div id="art-overlay9-desk">
+	   
+	   <a id="download" href="/original/amestd8.jpg" download="AGED...amehegwuh"><span class="fas fa-cloud-download-alt"></span></a>
+	   <a id="cart" href="#carttoggle"  uk-toggle><span  class="fab fa-opencart"></span></a>
+   </div>
+   
+   
+</div>
+
+<div id="art10-desk"  class="holder">
+	<img class="art-img" data-src="/images/amestd9.jpg" uk-img></img>
+	<img class="sidebar-img" data-src="/images/amestd9.jpg" uk-img></img>
+   
+   
+	<div class="art-sidebar">
+	   <h3>AGED</h3>
+	   
+	</div>
+   
+   
+   <div id="art-overlay10-desk">
+	   
+	   <a id="download" href="/original/amestd9.jpg" download="AGED...amehegwuh"><span class="fas fa-cloud-download-alt"></span></a>
+	   <a id="cart" href="#carttoggle"  uk-toggle><span  class="fab fa-opencart"></span></a>
+   </div>
+   
+   
+</div>
+
+<div id="art11-desk"  class="holder">
+	<img class="art-img" data-src="/images/amestd10.jpg" uk-img></img>
+	<img class="sidebar-img" data-src="/images/amestd10.jpg" uk-img></img>
+   
+   
+	<div class="art-sidebar">
+	   <h3>AGED</h3>
+	   
+	</div>
+   
+   
+   <div id="art-overlay11-desk">
+	   
+	   <a id="download" href="/original/amestd10.jpg" download="AGED...amehegwuh"><span class="fas fa-cloud-download-alt"></span></a>
+	   <a id="cart" href="#carttoggle"  uk-toggle><span  class="fab fa-opencart"></span></a>
+   </div>
+   
+   
+</div>
+
+<div id="art12-desk"  class="holder">
+	<img class="art-img" data-src="/images/amestd11.jpg" uk-img></img>
+	<img class="sidebar-img" data-src="/images/amestd11.jpg" uk-img></img>
+   
+   
+	<div class="art-sidebar">
+	   <h3>AGED</h3>
+	   
+	</div>
+   
+   
+   <div id="art-overlay12-desk">
+	   
+	   <a id="download" href="/original/amestd11.jpg" download="AGED...amehegwuh"><span class="fas fa-cloud-download-alt"></span></a>
+	   <a id="cart" href="#carttoggle"  uk-toggle><span  class="fab fa-opencart"></span></a>
+   </div>
+   
+   
+</div>
+
+<div id="art13-desk"  class="holder">
+	<img class="art-img" data-src="/images/amestd12.jpg" uk-img></img>
+	<img class="sidebar-img" data-src="/images/amestd12.jpg" uk-img></img>
+   
+   
+	<div class="art-sidebar">
+	   <h3>AGED</h3>
+	   
+	</div>
+   
+   
+   <div id="art-overlay13-desk">
+	   
+	   <a id="download" href="/original/amestd12.jpg" download="AGED...amehegwuh"><span class="fas fa-cloud-download-alt"></span></a>
+	   <a id="cart" href="#carttoggle"  uk-toggle><span  class="fab fa-opencart"></span></a>
+   </div>
+   
+   
+</div>
+
+<div id="art14-desk"  class="holder">
+	<img class="art-img" data-src="/images/amestd13.jpg" uk-img></img>
+	<img class="sidebar-img" data-src="/images/amestd13.jpg" uk-img></img>
+   
+   
+	<div class="art-sidebar">
+	   <h3>AGED</h3>
+	   
+	</div>
+   
+   
+   <div id="art-overlay14-desk">
+	   
+	   <a id="download" href="/original/amestd13.jpg" download="AGED...amehegwuh"><span class="fas fa-cloud-download-alt"></span></a>
+	   <a id="cart" href="#carttoggle"  uk-toggle><span  class="fab fa-opencart"></span></a>
+   </div>
+   
+   
+</div>
+
+<div id="art15-desk"  class="holder">
+	<img class="art-img" data-src="/images/amestd14.jpg" uk-img></img>
+	<img class="sidebar-img" data-src="/images/amestd14.jpg" uk-img></img>
+   
+   
+	<div class="art-sidebar">
+	   <h3>AGED</h3>
+	   
+	</div>
+   
+   
+   <div id="art-overlay15-desk">
+	   
+	   <a id="download" href="/original/amestd14.jpg" download="AGED...amehegwuh"><span class="fas fa-cloud-download-alt"></span></a>
+	   <a id="cart" href="#carttoggle"  uk-toggle><span  class="fab fa-opencart"></span></a>
+   </div>
+   
+   
+</div>
+   
+</div>
+
+ 
+ 
 
 
 	<div id="artworks-house" uk-scrollspy="cls:uk-animation-fade; target:>.holder; delay:250; repeat:true;">
 	 
-		<div class="navbar-house">
-		<p id="menu-name">.AME</p>
-		<a id="menu-btn" href="#"  ><img src="/images/gg_menu-left.svg"/></a>
+		<div class="navbar-sidebar">
+			<img src="images/Rectangle 97.svg">
+			<a id="menu-btn" href="#"  ><img src="/images/gg_menu-top.svg"/></a>
 		</div>
 	
 		
@@ -118,30 +442,45 @@
 	<div id="art-overlay1">
 		<h3>AGED</h3>
 		<h4>2018</h4>
-		<a id="download" href="/original/amestd0.jpg" download="AGED...amehegwuh"><span class="uk-icon-link" uk-icon="icon:download;"></span></a>
-		<a id="cart" href="#carttoggle"  uk-toggle><span class="uk-icon-link" uk-icon="icon:cart;"></span></a>
+		<a id="download" href="/original/amestd0.jpg" download="AGED...amehegwuh"><span class="fas fa-cloud-download-alt"></span></a>
+		<a id="cart" href="#carttoggle"  uk-toggle><span  class="fab fa-opencart"></span></a>
 	</div>
 
 
 	</div>
 	
 	 
-	 <div id="carttoggle" class="uk-modal-container" uk-modal>
-		<div id="modal-dialog" class="uk-modal-dialog uk-position-small uk-position-center" uk-grid>
+	 <div id="carttoggle" class="uk-modal-full" uk-modal>
+		<div id="modal-dialog" class="uk-modal-dialog" uk-grid>
 			<form action="/success-page" subject="PURCHASE REQUEST FOR AGED" name="aged" data-netlify="true"  id="modal-form" method="POST">
 			<img  name="image" id="modal-img" data-src="/images/amestd0.jpg" width="40%" height="30%"  uk-img>
-			<h2 class="uk-position-small uk-position-center">PURCHASE REQUEST</h2>
-			<h3>AGED</h3>
-			<h4>2018</h4>
+			<img class="purchase-downbar" src="images/purchase-downbar.svg">
+			
+			</img>
+			
 			<input name="title--AGED-2018[]" id="type-input" type="text" placeholder="type" required list="type">
 				<datalist id="type">
 					<option value="canvas"> canvas </option>
 				</datalist>
+				
+
+			
 			<input  name="email" id="email-input" type="email" placeholder="email" required >
+			
+		
+
+
 			<input  name="location" id="location-input" type="text" placeholder="state-country" required>
-			<button class="uk-button-default" type="submit">send</button>
+			
+
+
+			<button class="uk-button-default" type="submit"> buy </button>
+
+			<button class=" uk-modal-close" > <span class="fas fa-window-close"></span> </button>
+
+			
 			</form>
-		<button class="uk-modal-close-outside" type="button" uk-close></button>
+		
 	 </div>	
 	 </div>
    
@@ -154,8 +493,8 @@
 	 <div id="art-overlay2">
      <h3>MY AFRICAN WOMAN</h3>
      <h4>2017</h4>
-	 <a id="download" href="/original/amestd1.jpg" download="my african woman...amehegwuh"><span class="uk-icon-link" uk-icon="icon:download;"></span></a>
-     <a id="cart1" href="#carttoggle1" uk-toggle><span class="uk-icon-link" uk-icon="icon:cart;"></span></a>
+	 <a id="download" href="/original/amestd1.jpg" download="my african woman...amehegwuh"><span class="fas fa-cloud-download-alt"></span></a>
+     <a id="cart1" href="#carttoggle1" uk-toggle><span class="fab fa-opencart"></span></a>
 	</div>
 	
 	</div>
@@ -188,8 +527,8 @@
 	 <div id="art-overlay3">
 	 <h3>SELF TORTURE</h3>
      <h4>2018</h4>
-	 <a id="download" href="/original/amestd2.jpg" download="self torture...amehegwuh"><span class="uk-icon-link" uk-icon="icon:download;"></span></a>
-     <a id="cart2" href="#carttoggle2" uk-toggle><span class="uk-icon-link" uk-icon="icon:cart;"></span></a>
+	 <a id="download" href="/original/amestd2.jpg" download="self torture...amehegwuh"><span class="fas fa-cloud-download-alt"></span></a>
+     <a id="cart2" href="#carttoggle2" uk-toggle><span class="fab fa-opencart"></span></a>
 	 </div>
 	 
 	</div>
@@ -221,8 +560,8 @@
 	<div id="art-overlay4">
 	 <h3>SOME WORDS ARE NOISE</h3>
      <h4>2019</h4>
-	 <a id="download" href="/original/amestd3.jpg" download="SOME WORDS AE NOISE...amehegwuh"><span class="uk-icon-link" uk-icon="icon:download;"></span></a>
-     <a id="cart3" href="#carttoggle3" uk-toggle><span class="uk-icon-link" uk-icon="icon:cart;"></span></a>
+	 <a id="download" href="/original/amestd3.jpg" download="SOME WORDS AE NOISE...amehegwuh"><span class="fas fa-cloud-download-alt"></span></a>
+     <a id="cart3" href="#carttoggle3" uk-toggle><span class="fab fa-opencart"></span></a>
 	 </div>
 	 
 	</div>
@@ -254,8 +593,8 @@
 	 <div id="art-overlay5">
      <h3>SOME WORDS ARE NOISE</h3>
      <h4>2019</h4>
-	 <a id="download" href="/original/amestd4.jpg" download="SOME WORDS AE NOISE...amehegwuh"><span class="uk-icon-link" uk-icon="icon:download;"></span></a>
-     <a id="cart4" href="#carttoggle4" uk-toggle><span class="uk-icon-link" uk-icon="icon:cart;"></span></a>
+	 <a id="download" href="/original/amestd4.jpg" download="SOME WORDS AE NOISE...amehegwuh"><span class="fas fa-cloud-download-alt"></span></a>
+     <a id="cart4" href="#carttoggle4" uk-toggle><span class="fab fa-opencart"></span></a>
 	 </div>
 	 
 	</div>
@@ -326,7 +665,11 @@
 		
 			
 
-			<div id="offslide-down-1"></div>
+			<div id="offslide-down-1">
+				<span class="fab fa-instagram"></span>
+				<span class="fab fa-facebook-f"></span>
+				<span class="fab fa-twitter"></span>
+			</div>
 
 
 		
@@ -352,8 +695,11 @@
 	<script src="/js/uikit.min.js"></script>
 	<script src="/js/uikit-icons.min.js"></script>
 	<script src="/js/materialize.min.js"></script>
+	<script src="/js/all.js"></script>
+	<script src="/js/jquery.textillate.js"></script>
+	<script src="/js/jquery.lettering.js"></script>
 
-</div>
+
 </main>	
 </body>
 

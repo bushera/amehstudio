@@ -5,7 +5,10 @@
 		$("#preload-page").delay(3800).fadeOut(1200);
 
 
-	 
+
+
+
+
 		$("#menu-btn").click(function(){
 			$("#close-trigger").css("display", "block");
 			$("#offslide").animate({left: "0%"}, 600);
@@ -150,8 +153,10 @@
 			$("#art-overlay1-desk").animate({width: "69.5%", height: "100%", top: "0%"}, 1100);
 			$("#art1-desk .art-sidebar").delay(400).fadeOut(1000);
 			
-			$("#art1 #download").css("display", "block");
-			$("#artworks-house #cart").css("display", "block");
+			$("#art1 h3").css("display", "none");
+			$("#art-overlay1-desk #download").css("display", "block");
+			$("#art-overlay1-desk .request").css("display", "block");
+			
 			
 		});
 		
@@ -161,9 +166,8 @@
 			$("#art1-desk .art-sidebar").delay(200).fadeIn(600);
 			
 			$("#art1 h3").css("display", "block");
-			$("#art1 #download").css("display", "block");
-			$("#artworks-house #cart").css("display", "block");
-			
+			$("#art-overlay1-desk #download").css("display", "none");
+			$("#art-overlay1-desk .request").css("display", "none");
 			
 			
 		});

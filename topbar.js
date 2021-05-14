@@ -34,6 +34,7 @@
 
 
 		$("#art1").mouseenter(function(){
+			$("#art1").animate({width: "92%"}, 800);
 			$("#art1 img").animate({width: "100%", left: "0%", opacity: "0.25"}, 800);
 			$("#art-overlay1").animate({width: "100%"}, 800);
 			$("#art1 h3").css("display", "block");
@@ -43,7 +44,8 @@
 		});
 		
 		$("#art1").mouseleave(function(){
-			$("#art1 img").animate({width: "95%", left: "5%", opacity: "1"}, 1000)
+			$("#art1").animate({width: "90%"}, 800);
+			$("#art1 img").animate({width: "95%", left: "5%", opacity: "1"}, 1200)
 			$("#art-overlay1").animate({width: "0%"}, 1000);
 			$("#art1 h3").css("display", "none");
 			$("#art1 #download").css("display", "none");
@@ -52,6 +54,7 @@
 		});
 
 		$("#art2").mouseenter(function(){
+			$("#art2").animate({width: "92%"}, 800);
 			$("#art2 img").animate({width: "100%", left: "0%", opacity: "0.25"}, 800)
 			$("#art-overlay2").animate({width: "100%"}, 800);
 			$("#art2 h3").css("display", "block");
@@ -61,6 +64,7 @@
 		});
 		
 		$("#art2").mouseleave(function(){
+			$("#art2").animate({width: "90%"}, 800);
 			$("#art2 img").animate({width: "95%", left: "5%", opacity: "1"}, 1000)
 			$("#art-overlay2").animate({width: "0%"}, 1000);
 			$("#art2 h3").css("display", "none");
@@ -70,6 +74,7 @@
 		});
 
 		$("#art3").mouseenter(function(){
+			$("#art3").animate({width: "92%"}, 800);
 			$("#art3 img").animate({width: "100%", left: "0%", opacity: "0.25"}, 800)
 			$("#art-overlay3").animate({width: "100%"}, 800);
 			$("#art3 h3").css("display", "block");
@@ -79,6 +84,7 @@
 		});
 		
 		$("#art3").mouseleave(function(){
+			$("#art3").animate({width: "90%"}, 800);
 			$("#art3 img").animate({width: "95%", left: "5%", opacity: "1"}, 1000)
 			$("#art-overlay3").animate({width: "0%"}, 1000);
 			$("#art3 h3").css("display", "none");
@@ -88,6 +94,7 @@
 		});
 
 		$("#art4").mouseenter(function(){
+			$("#art4").animate({width: "92%"}, 800);
 			$("#art4 img").animate({width: "100%", left: "0%", opacity: "0.25"}, 800)
 			$("#art-overlay4").animate({width: "100%"}, 800);
 			$("#art4 h3").css("display", "block");
@@ -98,6 +105,7 @@
 		});
 		
 		$("#art4").mouseleave(function(){
+			$("#art4").animate({width: "90%"}, 800);
 			$("#art4 img").animate({width: "95%", left: "5%", opacity: "1"}, 1000)
 			$("#art-overlay4").animate({width: "0%"}, 1000);
 			$("#art4 h3").css("display", "none");
@@ -107,6 +115,7 @@
 		});
 
 		$("#art5").mouseenter(function(){
+			$("#art5").animate({width: "92%"}, 800);
 			$("#art5 img").animate({width: "100%", left: "0%", opacity: "0.25"}, 800)
 			$("#art-overlay5").animate({width: "100%"}, 800);
 			$("#art5 h3").css("display", "block");
@@ -116,11 +125,212 @@
 		});
 		
 		$("#art5").mouseleave(function(){
+			$("#art5").animate({width: "90%"}, 800);
 			$("#art5 img").animate({width: "95%", left: "5%", opacity: "1"}, 1000)
 			$("#art-overlay5").animate({width: "0%"}, 1000);
 			$("#art5 h3").css("display", "none");
 			$("#art5 #download").css("display", "none");
 			$("#artworks-house #cart4").css("display", "none");
+			
+		});
+
+		$("#art6").mouseenter(function(){
+			$("#art6").animate({width: "92%"}, 800);
+			$("#art6 img").animate({width: "100%", left: "0%", opacity: "0.25"}, 800)
+			$("#art-overlay6").animate({width: "100%"}, 800);
+			$("#art6 h3").css("display", "block");
+			$("#art6 #download").css("display", "block");
+			$("#artworks-house #cart5").css("display", "block");
+			
+		});
+		
+		$("#art6").mouseleave(function(){
+			$("#art6").animate({width: "90%"}, 800);
+			$("#art6 img").animate({width: "95%", left: "5%", opacity: "1"}, 1000)
+			$("#art-overlay6").animate({width: "0%"}, 1000);
+			$("#art6 h3").css("display", "none");
+			$("#art6 #download").css("display", "none");
+			$("#artworks-house #cart5").css("display", "none");
+			
+		});
+
+		$("#art7").mouseenter(function(){
+			$("#art7").animate({width: "92%"}, 800);
+			$("#art7 img").animate({width: "100%", left: "0%", opacity: "0.25"}, 800)
+			$("#art-overlay7").animate({width: "100%"}, 800);
+			$("#art7 h3").css("display", "block");
+			$("#art7 #download").css("display", "block");
+			$("#artworks-house #cart6").css("display", "block");
+			
+		});
+		
+		$("#art7").mouseleave(function(){
+			$("#art7").animate({width: "90%"}, 800);
+			$("#art7 img").animate({width: "95%", left: "5%", opacity: "1"}, 1000)
+			$("#art-overlay7").animate({width: "0%"}, 1000);
+			$("#art7 h3").css("display", "none");
+			$("#art7 #download").css("display", "none");
+			$("#artworks-house #cart6").css("display", "none");
+			
+		});
+
+		$("#art8").mouseenter(function(){
+			$("#art8").animate({width: "92%"}, 800);
+			$("#art8 img").animate({width: "100%", left: "0%", opacity: "0.25"}, 800)
+			$("#art-overlay8").animate({width: "100%"}, 800);
+			$("#art8 h3").css("display", "block");
+			$("#art8 #download").css("display", "block");
+			$("#artworks-house #cart7").css("display", "block");
+			
+		});
+		
+		$("#art8").mouseleave(function(){
+			$("#art8").animate({width: "90%"}, 800);
+			$("#art8 img").animate({width: "95%", left: "5%", opacity: "1"}, 1000)
+			$("#art-overlay8").animate({width: "0%"}, 1000);
+			$("#art8 h3").css("display", "none");
+			$("#art8 #download").css("display", "none");
+			$("#artworks-house #cart7").css("display", "none");
+			
+		});
+
+		$("#art9").mouseenter(function(){
+			$("#art9").animate({width: "92%"}, 800);
+			$("#art9 img").animate({width: "100%", left: "0%", opacity: "0.25"}, 800)
+			$("#art-overlay9").animate({width: "100%"}, 800);
+			$("#art9 h3").css("display", "block");
+			$("#art9 #download").css("display", "block");
+			$("#artworks-house #cart8").css("display", "block");
+			
+		});
+		
+		$("#art9").mouseleave(function(){
+			$("#art9").animate({width: "90%"}, 800);
+			$("#art9 img").animate({width: "95%", left: "5%", opacity: "1"}, 1000)
+			$("#art-overlay9").animate({width: "0%"}, 1000);
+			$("#art9 h3").css("display", "none");
+			$("#art9 #download").css("display", "none");
+			$("#artworks-house #cart8").css("display", "none");
+			
+		});
+
+		$("#art10").mouseenter(function(){
+			$("#art10").animate({width: "92%"}, 800);
+			$("#art10 img").animate({width: "100%", left: "0%", opacity: "0.25"}, 800)
+			$("#art-overlay10").animate({width: "100%"}, 800);
+			$("#art10 h3").css("display", "block");
+			$("#art10 #download").css("display", "block");
+			$("#artworks-house #cart9").css("display", "block");
+			
+		});
+		
+		$("#art10").mouseleave(function(){
+			$("#art10").animate({width: "90%"}, 800);
+			$("#art10 img").animate({width: "95%", left: "5%", opacity: "1"}, 1000)
+			$("#art-overlay10").animate({width: "0%"}, 1000);
+			$("#art10 h3").css("display", "none");
+			$("#art10 #download").css("display", "none");
+			$("#artworks-house #cart9").css("display", "none");
+			
+		});
+
+		$("#art11").mouseenter(function(){
+			$("#art11").animate({width: "92%"}, 800);
+			$("#art11 img").animate({width: "100%", left: "0%", opacity: "0.25"}, 800)
+			$("#art-overlay11").animate({width: "100%"}, 800);
+			$("#art11 h3").css("display", "block");
+			$("#art11 #download").css("display", "block");
+			$("#artworks-house #cart10").css("display", "block");
+			
+		});
+		
+		$("#art11").mouseleave(function(){
+			$("#art11").animate({width: "90%"}, 800);
+			$("#art11 img").animate({width: "95%", left: "5%", opacity: "1"}, 1000)
+			$("#art-overlay11").animate({width: "0%"}, 1000);
+			$("#art11 h3").css("display", "none");
+			$("#art11 #download").css("display", "none");
+			$("#artworks-house #cart10").css("display", "none");
+			
+		});
+
+		$("#art12").mouseenter(function(){
+			$("#art12").animate({width: "92%"}, 800);
+			$("#art12 img").animate({width: "100%", left: "0%", opacity: "0.25"}, 800)
+			$("#art-overlay12").animate({width: "100%"}, 800);
+			$("#art12 h3").css("display", "block");
+			$("#art12 #download").css("display", "block");
+			$("#artworks-house #cart11").css("display", "block");
+			
+		});
+		
+		$("#art12").mouseleave(function(){
+			$("#art12").animate({width: "90%"}, 800);
+			$("#art12 img").animate({width: "95%", left: "5%", opacity: "1"}, 1000)
+			$("#art-overlay12").animate({width: "0%"}, 1000);
+			$("#art12 h3").css("display", "none");
+			$("#art12 #download").css("display", "none");
+			$("#artworks-house #cart11").css("display", "none");
+			
+		});
+
+		$("#art13").mouseenter(function(){
+			$("#art13").animate({width: "92%"}, 800);
+			$("#art13 img").animate({width: "100%", left: "0%", opacity: "0.25"}, 800)
+			$("#art-overlay13").animate({width: "100%"}, 800);
+			$("#art13 h3").css("display", "block");
+			$("#art13 #download").css("display", "block");
+			$("#artworks-house #cart12").css("display", "block");
+			
+		});
+		
+		$("#art13").mouseleave(function(){
+			$("#art13").animate({width: "90%"}, 800);
+			$("#art13 img").animate({width: "95%", left: "5%", opacity: "1"}, 1000)
+			$("#art-overlay13").animate({width: "0%"}, 1000);
+			$("#art13 h3").css("display", "none");
+			$("#art13 #download").css("display", "none");
+			$("#artworks-house #cart12").css("display", "none");
+			
+		});
+
+		$("#art14").mouseenter(function(){
+			$("#art14").animate({width: "92%"}, 800);
+			$("#art14 img").animate({width: "100%", left: "0%", opacity: "0.25"}, 800)
+			$("#art-overlay14").animate({width: "100%"}, 800);
+			$("#art14 h3").css("display", "block");
+			$("#art14 #download").css("display", "block");
+			$("#artworks-house #cart13").css("display", "block");
+			
+		});
+		
+		$("#art14").mouseleave(function(){
+			$("#art14").animate({width: "90%"}, 800);
+			$("#art14 img").animate({width: "95%", left: "5%", opacity: "1"}, 1000)
+			$("#art-overlay14").animate({width: "0%"}, 1000);
+			$("#art14 h3").css("display", "none");
+			$("#art14 #download").css("display", "none");
+			$("#artworks-house #cart13").css("display", "none");
+			
+		});
+
+		$("#art15").mouseenter(function(){
+			$("#art15").animate({width: "92%"}, 800);
+			$("#art15 img").animate({width: "100%", left: "0%", opacity: "0.25"}, 800)
+			$("#art-overlay15").animate({width: "100%"}, 800);
+			$("#art15 h3").css("display", "block");
+			$("#art15 #download").css("display", "block");
+			$("#artworks-house #cart14").css("display", "block");
+			
+		});
+		
+		$("#art15").mouseleave(function(){
+			$("#art15").animate({width: "90%"}, 800);
+			$("#art15 img").animate({width: "95%", left: "5%", opacity: "1"}, 1000)
+			$("#art-overlay15").animate({width: "0%"}, 1000);
+			$("#art15 h3").css("display", "none");
+			$("#art15 #download").css("display", "none");
+			$("#artworks-house #cart14").css("display", "none");
 			
 		});
 
